@@ -5,6 +5,7 @@ import App.Entities.Users;
 import com.mongodb.*;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 import org.bson.conversions.Bson;
@@ -51,6 +52,29 @@ public class PostNoSQL {
     }
 
 
+    public void getAllPosts() {
+        FindIterable<Document> iterables = collection.find();
+        MongoCursor<Document> cursor = iterables.iterator();
+        try {
+            while(cursor.hasNext()) {
+                System.out.println(cursor.next().toJson());
+            }
+        } finally {
+            cursor.close();
+        }
+    }
+    public void getPostsByTag(String tag) {
+        BasicDBObject query = new BasicDBObject("tags", tag);
+        FindIterable<Document> iterables = collection.find(query);
+        MongoCursor<Document> cursor = iterables.iterator();
+        try {
+            while(cursor.hasNext()){
+                System.out.println(cursor.next().toJson());
+            }
+        } finally {
+            cursor.close();
+        }
+    }
 
 
 }
