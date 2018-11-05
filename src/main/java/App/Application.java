@@ -1,6 +1,7 @@
 package App;
 
 import App.Entities.Users;
+import App.NoSQL.PostNoSQL;
 import App.Services.Implementations.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,8 +26,11 @@ public class Application implements CommandLineRunner{
 
         {
             System.out.println("Pokrenuo sam see " );
-            Users u = userService.findByUsername("mmesihovic1");
-            System.out.println(u.getUsername());
+            //Users u = userService.findByUsername("mmesihovic1");
+            //System.out.println(u.getUsername());
+            PostNoSQL postNoSQL = new PostNoSQL();
+            //postNoSQL.addPost();
+
         }
     }
 }
