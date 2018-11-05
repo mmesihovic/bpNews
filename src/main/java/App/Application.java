@@ -6,6 +6,7 @@ import App.Entities.Users;
 import App.NoSQL.CategoryNoSQL;
 import App.NoSQL.CommentNoSQL;
 import App.NoSQL.PostNoSQL;
+import App.NoSQL.UserNoSQL;
 import App.Services.Implementations.CategoryService;
 import App.Services.Implementations.UserService;
 
@@ -54,6 +55,9 @@ public class Application implements CommandLineRunner{
             CategoryNoSQL categoryNoSQL = new CategoryNoSQL();
             //categoryNoSQL.addCategory("Sport");
             categoryNoSQL.getAllCategories();
+
+            UserNoSQL userNoSQL = new UserNoSQL();
+            userNoSQL.getAllUsers();
         }
     }
 }

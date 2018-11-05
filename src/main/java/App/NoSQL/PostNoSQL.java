@@ -13,6 +13,11 @@ import org.bson.types.ObjectId;
 
 import java.util.List;
 
+/**
+ * NoSQL  database where Post manipulation is implemented
+ * Used for Post manipulation
+ */
+
 public class PostNoSQL {
     MongoClient mongoClient;
     MongoDatabase db;
@@ -24,6 +29,9 @@ public class PostNoSQL {
         collection = db.getCollection("Post");
     }
 
+    /**
+     * Add Post method used for adding Post into database.
+     */
     public void addPost(){
 
         Document post = new Document("_id", new ObjectId())
@@ -36,6 +44,13 @@ public class PostNoSQL {
         System.out.println("dodao");
     }
 
+    /**
+     * Method used for mapping to Database Object.
+     * @param post instance of Posts
+     * @param author instance of Users
+     * @return returns new Document
+     */
+
     public Document toDBObject(Posts post, Users author){
         return new Document("_id", new ObjectId())
                 .append("title", post.getTitle())
@@ -45,13 +60,18 @@ public class PostNoSQL {
                         .append("mail",author.getMail()));
     }
 
+    /**
+     * Used for adding Post into database
+     * @param post instance of Posts
+     * @param author instance of Users
+     */
     public void addPost(Posts post, Users author){
-
         collection.insertOne(toDBObject(post, author));
-
     }
 
-
+    /**
+     * Retrieves all Posts from database.
+     */
     public void getAllPosts() {
         FindIterable<Document> iterables = collection.find();
         MongoCursor<Document> cursor = iterables.iterator();
@@ -63,6 +83,11 @@ public class PostNoSQL {
             cursor.close();
         }
     }
+
+    /**
+     * Retrieves Post by tag
+     * @param tag instance of string
+     */
     public void getPostsByTag(String tag) {
         BasicDBObject query = new BasicDBObject("tags", tag);
         FindIterable<Document> iterables = collection.find(query);

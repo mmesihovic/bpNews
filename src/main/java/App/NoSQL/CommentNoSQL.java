@@ -15,6 +15,11 @@ import javax.sound.midi.SysexMessage;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * NoSQL  database where Comment manipulation is implemented
+ * Used for Comment manipulation
+ */
+
 public class CommentNoSQL {
     MongoClient mongoClient;
     MongoDatabase db;
@@ -26,6 +31,9 @@ public class CommentNoSQL {
         collection = db.getCollection("Comments");
     }
 
+    /**
+     * Adds Comment into database.
+     */
     public void addComment(){
 
         Document comment = new Document("_id", new ObjectId())
@@ -38,6 +46,12 @@ public class CommentNoSQL {
         System.out.println("Uspjesno dodano u NoSQL bazu podataka");
     }
 
+    /**
+     * Maps Comment to DB Object
+     * @param comment instance of Comment
+     * @param author instance of Users
+     *
+     */
     public Document toDBObject(Comments comment, Users author){
         return new Document("_id", new ObjectId())
                 .append("text", comment.getText())
@@ -47,12 +61,18 @@ public class CommentNoSQL {
                         .append("mail",author.getMail()));
     }
 
+    /**
+     * Inserts Comment into database
+     * @param comment instance of Comments
+     * @param author instance of Users
+     */
     public void addComment(Comments comment, Users author){
-
         collection.insertOne(toDBObject(comment, author));
-
     }
 
+    /**
+     * Retrives all Comments from database.
+     */
     public void getAllComments() {
         FindIterable<Document> iterables = collection.find();
         MongoCursor<Document> cursor = iterables.iterator();
@@ -64,6 +84,11 @@ public class CommentNoSQL {
             cursor.close();
         }
     }
+
+    /**
+     * Retrives Comments by username
+     * @param username instance of string
+     */
     public void getCommentsByUsername(String username) {
         BasicDBObject query = new BasicDBObject("author", new BasicDBObject("username","mmesihovic1")
                 .append("mail","mmesihovic1@etf.unsa.ba"));
