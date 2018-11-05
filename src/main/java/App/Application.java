@@ -1,9 +1,12 @@
 package App;
 
+import App.Entities.Categories;
 import App.Entities.Comments;
 import App.Entities.Users;
+import App.NoSQL.CategoryNoSQL;
 import App.NoSQL.CommentNoSQL;
 import App.NoSQL.PostNoSQL;
+import App.Services.Implementations.CategoryService;
 import App.Services.Implementations.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +24,9 @@ public class Application implements CommandLineRunner{
     UserService userService;
 
     @Autowired
+    CategoryService categoryService;
+
+    @Autowired
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
@@ -31,6 +37,7 @@ public class Application implements CommandLineRunner{
 
         {
             System.out.println("Pokrenuo sam see " );
+
             //Users u = userService.findByUsername("mmesihovic1");
             //System.out.println(u.getUsername());
 
@@ -39,10 +46,14 @@ public class Application implements CommandLineRunner{
             //commentNoSQL.getAllComments();
             //commentNoSQL.getCommentsByUsername("mmesihovic1");
 
-            PostNoSQL postNoSQL = new PostNoSQL();
+            //PostNoSQL postNoSQL = new PostNoSQL();
             //postNoSQL.addPost();
             //postNoSQL.getAllPosts();
-            postNoSQL.getPostsByTag("France");
+            //postNoSQL.getPostsByTag("France");
+
+            CategoryNoSQL categoryNoSQL = new CategoryNoSQL();
+            //categoryNoSQL.addCategory("Sport");
+            categoryNoSQL.getAllCategories();
         }
     }
 }
