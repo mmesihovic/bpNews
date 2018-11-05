@@ -12,6 +12,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
+import java.util.Locale;
 
 @SpringBootApplication
 public class Application implements CommandLineRunner{
@@ -21,6 +22,8 @@ public class Application implements CommandLineRunner{
 
     @Autowired
     public static void main(String[] args) {
+
+        Locale.setDefault(Locale.US);
         SpringApplication.run(Application.class, args);
     }
     @Override
