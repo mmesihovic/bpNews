@@ -1,6 +1,8 @@
 package App;
 
+import App.Entities.Comments;
 import App.Entities.Users;
+import App.NoSQL.CommentNoSQL;
 import App.NoSQL.PostNoSQL;
 import App.Services.Implementations.UserService;
 
@@ -28,7 +30,12 @@ public class Application implements CommandLineRunner{
             System.out.println("Pokrenuo sam see " );
             //Users u = userService.findByUsername("mmesihovic1");
             //System.out.println(u.getUsername());
-            PostNoSQL postNoSQL = new PostNoSQL();
+            //PostNoSQL postNoSQL = new PostNoSQL();
+            //CommentNoSQL commentNoSQL = new CommentNoSQL();
+            //commentNoSQL.addComment();
+            //commentNoSQL.getAllComments();
+            //commentNoSQL.getCommentsByUsername("mmesihovic1");
+
             //postNoSQL.addPost();
 
         }
