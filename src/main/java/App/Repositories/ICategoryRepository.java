@@ -16,6 +16,11 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ICategoryRepository extends CrudRepository<Categories, Long> {
 
+    /**
+     * Retrive Category by name
+     * @param name instance of type stirng
+     * @return Category with the provided name
+     */
     public Categories findByName(String name);
 
 }

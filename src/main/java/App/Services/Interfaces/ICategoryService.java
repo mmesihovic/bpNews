@@ -13,8 +13,17 @@ import java.util.List;
  */
 
 public interface ICategoryService {
-
+    /**
+     * Retrive all Categories from database.
+     * @return List of all Categories from database.
+     */
     List<Categories> getAllCategories();
+
+    /**
+     * Retrive Category by name
+     * @param name instance of type string
+     * @return Category with the provided name
+     */
     Categories findByName(String name);
 
 }
