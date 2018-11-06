@@ -16,6 +16,10 @@ import javax.sound.midi.SysexMessage;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * NoSQL  database where Category manipulation is implemented
+ * Used for Category manipulation
+ */
 public class CategoryNoSQL {
     MongoClient mongoClient;
     MongoDatabase db;
@@ -27,6 +31,10 @@ public class CategoryNoSQL {
         collection = db.getCollection("Categories");
     }
 
+    /**
+     * Adds Category into database.
+     * @param name instance of string
+     */
     public void addCategory(String name){
 
         Document category = new Document("_id", new ObjectId())
@@ -35,17 +43,28 @@ public class CategoryNoSQL {
         System.out.println("Komentar uspješno dodan");
     }
 
+    /**
+     * Maps Categories object into DB Object.
+     * @param category instance of Categories
+     * @return Document
+     */
+
     public Document toDBObject(Categories category){
         return new Document("_id", new ObjectId())
                 .append("name", category.getName());
     }
 
+    /**
+     * Inserts Category into database.
+     * @param category insance of Categories
+     */
     public void addCategory(Categories category){
-
         collection.insertOne(toDBObject(category));
-
     }
 
+    /**
+     * Retrives all Categories from database.
+     */
     public void getAllCategories() {
         FindIterable<Document> iterables = collection.find();
         MongoCursor<Document> cursor = iterables.iterator();
