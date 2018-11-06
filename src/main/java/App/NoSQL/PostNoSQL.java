@@ -8,34 +8,69 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
-import org.bson.conversions.Bson;
 import org.bson.types.ObjectId;
 
-import java.util.List;
-
+/**
+ * Contains insert and find methods for Post collection in MongoDB.
+ * PostNoSQL object encapsulates the state information needed for connection to MongoDB cluster,
+ * and database/collection access.
+ * This state information includes:
+ *  <ul>
+ *  <li><code>MongoClient</code>
+ *  <li><code>MongoDatabase</code>
+ *  <li><code>MongoCollection</code>
+ *  </ul>
+ *  @author Delila
+ *  @since  1.0
+ */
 public class PostNoSQL {
     MongoClient mongoClient;
     MongoDatabase db;
     MongoCollection<Document> collection;
 
+    /**
+     * Constructs new PostNoSQL object and initializes class attributes.
+     * <p>
+     * Requires no parameters.
+     */
     public PostNoSQL(){
         mongoClient = new MongoClient(new MongoClientURI("mongodb://ddevic1:ddevic1@cluster0-shard-00-00-ohdsv.mongodb.net:27017,cluster0-shard-00-01-ohdsv.mongodb.net:27017,cluster0-shard-00-02-ohdsv.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"));
         db = mongoClient.getDatabase("prsdb1");
         collection = db.getCollection("Post");
     }
 
-    public void addPost(){
+    /**
+     * Inserts new document in Post collection.
+     *
+     * @param title     post title, document attribute
+     * @param subtitle  post subtitle, document attribute
+     * @param text      post text, document attribute
+     * @param username  authors username, document attribute
+     * @param mail      authors e-mail, document attribute
+     */
+
+    public void addPost(String title, String subtitle, String text, String username, String mail){
 
         Document post = new Document("_id", new ObjectId())
-        .append("title", "Baudelaire suicide letter sold at auction")
-        .append("subtitle", "French poet Baudelaire suicide letter fetches €234,000 at auction")
-        .append("text", "A letter by the French 19th-Century poet Charles Baudelaire announcing he would kill himself has sold at auction for €234,000 (£204,000; $267,000). The note, dated 30 June 1845, was addressed to Baudelaire's lover Jeanne Duval. The poet, who was 24 years old at the time, attempted to commit suicide on the same day - but survived. The French auction website Osenat said the letter sold to a private buyer for three times the estimated price. In the letter, Baudelaire informed his mistress of his intention to take his own life. 'By the time you receive this letter, I will be dead,' it said. 'I am killing myself because I can no longer live, or bear the burden of falling asleep and waking up again.'")
-        .append("author",new BasicDBObject("username","shrenovica1")
-        .append("mail","shrenovica1@etf.unsa.ba"));
+        .append("title", title)
+        .append("subtitle", subtitle)
+        .append("text", text)
+        .append("author",new BasicDBObject("username",username)
+        .append("mail",mail));
         collection.insertOne(post);
         System.out.println("dodao");
     }
 
+    /**
+     * Converts oracle entities Post and Author(User) in Document object.
+     * This method iz useful while inserting document in Post collection.
+     * @see Posts
+     * @see Users
+     *
+     * @param post      oracle entity Post that contains post title, subtitle and text
+     * @param author    oracle entity Author that contains authors username and e-mail
+     * @return          new Document object for insertion in MongoDB
+     */
     public Document toDBObject(Posts post, Users author){
         return new Document("_id", new ObjectId())
                 .append("title", post.getTitle())
@@ -45,14 +80,27 @@ public class PostNoSQL {
                         .append("mail",author.getMail()));
     }
 
+    /**
+     * Inserts new document in Post collection.
+     * Calls toDBObject method for converting parameters to Document object.
+     * @see Posts
+     * @see Users
+     *
+     * @param post      oracle entity Post that contains post title, subtitle and text
+     * @param author    oracle entity Author that contains authors username and e-mail
+     */
     public void addPost(Posts post, Users author){
 
         collection.insertOne(toDBObject(post, author));
 
     }
 
-
-    public void getAllPosts() {
+    /**
+     * Returns all posts from Post collection.
+     *
+     * @return      MongoCursor that contains every post from Post collection
+     */
+    public MongoCursor<Document> getAllPosts() {
         FindIterable<Document> iterables = collection.find();
         MongoCursor<Document> cursor = iterables.iterator();
         try {
@@ -62,8 +110,16 @@ public class PostNoSQL {
         } finally {
             cursor.close();
         }
+        return cursor;
     }
-    public void getPostsByTag(String tag) {
+
+    /**
+     * Returns posts from Post collection that contains specific tag.
+     * This method will be used for filtering posts on frontend.
+     *
+     * @param tag       used for finding posts that contains the specific tag
+     */
+    public MongoCursor<Document> getPostsByTag(String tag) {
         BasicDBObject query = new BasicDBObject("tags", tag);
         FindIterable<Document> iterables = collection.find(query);
         MongoCursor<Document> cursor = iterables.iterator();
@@ -74,6 +130,8 @@ public class PostNoSQL {
         } finally {
             cursor.close();
         }
+
+        return cursor;
     }
 
 
