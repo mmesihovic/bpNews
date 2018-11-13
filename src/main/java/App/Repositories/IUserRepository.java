@@ -4,6 +4,8 @@ import App.Entities.Users;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
+import javax.transaction.Transactional;
+
 /**
  * Repository for handling User manipulation
  */
@@ -15,6 +17,7 @@ public interface IUserRepository extends CrudRepository<Users, Long> {
      * @param username instance of String
      * @return User with the provided username
      */
+    @Transactional
     Users findByUsername(String username);
 
 }

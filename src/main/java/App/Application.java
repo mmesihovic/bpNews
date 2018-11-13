@@ -1,5 +1,6 @@
 package App;
 
+import App.Controller.UserController;
 import App.Entities.Categories;
 import App.Entities.Comments;
 import App.Entities.Users;
@@ -38,8 +39,9 @@ public class Application implements CommandLineRunner{
 
         {
             System.out.println("Pokrenuo sam see " );
+            //UserController  uc = new UserController();
 
-            //Users u = userService.findByUsername("mmesihovic1");
+           // Users u = userService.findByUsername("mmesihovic1");
             //System.out.println(u.getUsername());
 
             //CommentNoSQL commentNoSQL = new CommentNoSQL();
@@ -52,12 +54,12 @@ public class Application implements CommandLineRunner{
             //postNoSQL.getAllPosts();
             //postNoSQL.getPostsByTag("France");
 
-            CategoryNoSQL categoryNoSQL = new CategoryNoSQL();
+          //  CategoryNoSQL categoryNoSQL = new CategoryNoSQL();
             //categoryNoSQL.addCategory("Sport");
-            categoryNoSQL.getAllCategories();
+            //categoryNoSQL.getAllCategories();
 
-            UserNoSQL userNoSQL = new UserNoSQL();
-            userNoSQL.getAllUsers();
+            //UserNoSQL userNoSQL = new UserNoSQL();
+            //userNoSQL.getAllUsers();
         }
     }
 }

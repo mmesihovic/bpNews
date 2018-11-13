@@ -1,6 +1,7 @@
 package App.Services.Interfaces;
 
 import App.Entities.Users;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -21,5 +22,6 @@ public interface IUserService {
      * @return User with the provided username.
      */
     Users findByUsername(String username);
+    boolean AddFile(String firstname, String lastname, String email, MultipartFile file, String fileName);
 
 }
