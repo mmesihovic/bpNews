@@ -1,13 +1,6 @@
 package App;
 
-import App.Controller.UserController;
-import App.Entities.Categories;
-import App.Entities.Comments;
-import App.Entities.Users;
-import App.NoSQL.CategoryNoSQL;
-import App.NoSQL.CommentNoSQL;
-import App.NoSQL.PostNoSQL;
-import App.NoSQL.UserNoSQL;
+import App.NoSQL.NoSQLOracleService;
 import App.Services.Implementations.CategoryService;
 import App.Services.Implementations.UserService;
 
@@ -16,7 +9,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.List;
 import java.util.Locale;
 
 @SpringBootApplication
@@ -39,6 +31,7 @@ public class Application implements CommandLineRunner{
 
         {
             System.out.println("Pokrenuo sam see " );
+
             //UserController  uc = new UserController();
 
            // Users u = userService.findByUsername("mmesihovic1");

@@ -20,7 +20,12 @@ public class UserService implements IUserService {
 
     @Autowired
     private IUserRepository userRepository;
-    UserRepository _userRepository = new UserRepository();
+    UserRepository _userRepository;
+
+    public UserService(){
+        _userRepository = new UserRepository();
+        System.out.println("repository "+ userRepository.findByUsername("kk"));
+    }
 
     /**
      * Retriving all Users from database.
@@ -40,6 +45,7 @@ public class UserService implements IUserService {
     @Override
     @Transactional
     public Users findByUsername(String username) {
+
         return userRepository.findByUsername(username);
     }
 

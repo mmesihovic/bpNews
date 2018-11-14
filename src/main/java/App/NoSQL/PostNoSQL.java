@@ -133,6 +133,20 @@ public class PostNoSQL {
 
         return cursor;
     }
+    public MongoCursor<Document> getPostsByAuthor(String userneme) {
+        BasicDBObject query = new BasicDBObject("author.username", userneme);
+        FindIterable<Document> iterables = collection.find(query);
+        MongoCursor<Document> cursor = iterables.iterator();
+        try {
+            while(cursor.hasNext()){
+                System.out.println(cursor.next().toJson());
+            }
+        } finally {
+            cursor.close();
+        }
+
+        return cursor;
+    }
 
 
 }

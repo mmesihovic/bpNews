@@ -11,14 +11,14 @@ import org.springframework.web.multipart.support.StandardMultipartHttpServletReq
 import java.io.IOException;
 
 @Controller
-@RequestMapping("api/users")
-public class UserController {
+@RequestMapping("api/usersMirza")
+public class UserControllerMirza {
 
     UserService usersService = new UserService();
 
     @RequestMapping(value="/", method = RequestMethod.GET)
     @ResponseBody
-    public String showUserForm() {
+    public String showUserFormMirza() {
 
         return "userForm";
     }
@@ -26,7 +26,7 @@ public class UserController {
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value="/upload", method = RequestMethod.POST)
     @ResponseBody
-    public String uploadFile(@RequestParam("firstName") String firstname,
+    public String uploadFileMirza(@RequestParam("firstName") String firstname,
                              @RequestParam("lastName") String lastname,
                              @RequestParam("email") String email,
                              @RequestParam("file") MultipartFile file,
