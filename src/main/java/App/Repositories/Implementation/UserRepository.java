@@ -1,90 +1,66 @@
 package App.Repositories.Implementation;
-
-import org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;
+import App.Entities.FajloviSanja;
+import App.Entities.KorisniciSanja;
+import App.Repositories.IFajloviSanja;
+import App.Repositories.IKorisniciSanjaRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.provider.HibernateUtils;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.websocket.Session;
 import java.io.File;
-import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
-public class UserRepository {
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
 
+@Repository
+public class UserRepository  {
+    private static Session session;
+    @Autowired
+    IFajloviSanja fajloviSanja;
+    @Autowired
+    IKorisniciSanjaRepository korisniciSanja;
     public boolean AddFile(String firstname, String lastname, String email, MultipartFile file, String fileName){
 
-        File file1 = new File(file.getName());
-        byte[] data = new byte[(int) file1.length()];
-
-        try {
-            FileInputStream fileInputStream = new FileInputStream(file1);
-            fileInputStream.read(data);
-            fileInputStream.close();
-        } catch (Exception e) {
-            e.printStackTrace();
+        KorisniciSanja korisnik = korisniciSanja.findByMail(email);
+        if(korisnik != null) {
+            System.out.println(korisnik.getFirstname());
+            System.out.println(korisnik.getLastname());
+            System.out.println(korisnik.getMail());
+        } else {
+            KorisniciSanja novi = new KorisniciSanja();
+            novi.setFirstname(firstname);
+            novi.setLastname(lastname);
+            novi.setMail(email);
+            korisniciSanja.save(novi);
         }
+        korisnik = korisniciSanja.findByMail(email);
 
-        /*FajloviSanja image = new FajloviSanja();
-        image.setImageName("test.jpeg");
-        image.setData(imageData);*/
+        FajloviSanja f = new FajloviSanja();
+        byte[] byteArr = null;
+        try {
+            byteArr = file.getBytes();
+            f.setContent(byteArr);
+            f.setKorisnikid(korisnik.getId());
+            f.setName(fileName);
+            fajloviSanja.save(f);
+        }
+        catch (IOException e){
 
+        }
+        /*
+        try {
+            FileOutputStream outputStream = new FileOutputStream(new File("testOut.png"));
+            org.apache.commons.io.IOUtils.write(byteArr, outputStream);
+        }
+        catch (Exception e){}
+        */
         return true; //ako je spaseno uspjesno
     }
-
-/*    public boolean AddFileDelila(String firstname, String lastname, String email, MultipartFile file, String fileName){
-
-        File file1 = new File(file.getName());
-        byte[] imageData = new byte[(int) file1.length()];
-
-        try {
-            FileInputStream fileInputStream = new FileInputStream(file1);
-            fileInputStream.read(imageData);
-            fileInputStream.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        FajloviDelila image = new FajloviDelila();
-        image.setImageName("test.jpeg");
-        image.setData(imageData);
-
-        return true; //ako je spaseno uspjesno
-    }
-    public boolean AddFileMirza(String firstname, String lastname, String email, MultipartFile file, String fileName){
-
-        File file1 = new File(file.getName());
-        byte[] imageData = new byte[(int) file1.length()];
-
-        try {
-            FileInputStream fileInputStream = new FileInputStream(file1);
-            fileInputStream.read(imageData);
-            fileInputStream.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        FajloviMirza image = new FajloviMirza();
-        image.setImageName("test.jpeg");
-        image.setData(imageData);
-
-        return true; //ako je spaseno uspjesno
-    }
-    public boolean AddFileTin(String firstname, String lastname, String email, MultipartFile file, String fileName){
-
-        File file1 = new File(file.getName());
-        byte[] imageData = new byte[(int) file1.length()];
-
-        try {
-            FileInputStream fileInputStream = new FileInputStream(file1);
-            fileInputStream.read(imageData);
-            fileInputStream.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        FajloviTin image = new FajloviTin();
-        image.setImageName("test.jpeg");
-        image.setData(imageData);
-
-        return true; //ako je spaseno uspjesno
-    }*/
 }

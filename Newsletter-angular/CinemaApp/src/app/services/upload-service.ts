@@ -18,8 +18,6 @@ export class UploadService {
         formData.append("file", blob);
         formData.append("fileName", item.file.name );
 
-    
-
         return this.http.post(this.api+"upload", formData );
     }
 

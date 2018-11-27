@@ -17,6 +17,14 @@
       <mapping class="App.Entities.Tags"/>
       <mapping class="App.Entities.Users"/>
       <mapping class="App.Entities.Videos"/>
+      <mapping class="App.Entities.FajloviDelila"/>
+      <mapping class="App.Entities.FajloviMirza"/>
+      <mapping class="App.Entities.FajloviSanja"/>
+      <mapping class="App.Entities.FajloviTin"/>
+      <mapping class="App.Entities.KorisniciDelila"/>
+      <mapping class="App.Entities.KorisniciMirza"/>
+      <mapping class="App.Entities.KorisniciSanja"/>
+      <mapping class="App.Entities.KorisniciTin"/>
       <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 

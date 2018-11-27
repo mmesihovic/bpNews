@@ -2,6 +2,7 @@ package App.Controller;
 
 import App.Entities.Users;
 import App.Services.Implementations.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +15,8 @@ import java.io.IOException;
 @RequestMapping("api/users")
 public class UserControllerSanja {
 
-    UserService usersService = new UserService();
+    @Autowired
+    UserService usersService;
 
     @RequestMapping(value="/", method = RequestMethod.GET)
     @ResponseBody
@@ -35,11 +37,13 @@ public class UserControllerSanja {
         usersService.AddFile(firstname,lastname,email,file, fileName);
 
         try {
-            System.out.println(file.getBytes() );
+           // System.out.println(file.getBytes() );
             System.out.println(fileName);
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
+
+
 
         return "userForm";
     }

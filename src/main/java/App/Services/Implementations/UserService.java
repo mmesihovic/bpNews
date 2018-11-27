@@ -20,11 +20,11 @@ public class UserService implements IUserService {
 
     @Autowired
     private IUserRepository userRepository;
+    @Autowired
     UserRepository _userRepository;
 
     public UserService(){
-        _userRepository = new UserRepository();
-        System.out.println("repository "+ userRepository.findByUsername("kk"));
+        //_userRepository = new UserRepository();
     }
 
     /**
