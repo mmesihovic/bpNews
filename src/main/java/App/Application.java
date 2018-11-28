@@ -30,7 +30,7 @@ public class Application implements CommandLineRunner{
     public void run(String... arg0) throws Exception {
 
         {
-            System.out.println("Pokrenuo sam see " );
+            //System.out.println("Pokrenuo sam see " );
 
             //UserController  uc = new UserController();
 
