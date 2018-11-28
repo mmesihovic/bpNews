@@ -12,19 +12,20 @@ import { NewsletterDownloadComponent } from './newsletter-download/newsletter-do
 import { NewsletterUploadComponent } from './newsletter-upload/newsletter-upload.component';
 import { FileSelectDirective } from 'ng2-file-upload';
 import { UploadService } from 'src/app/services/upload-service';
+import { DownloadService } from 'src/app/services/download-service';
 
 const appRoutes: Routes = [
-{ path: '', component: NewsletterDownloadComponent},
-{ path: 'upload', component: NewsletterUploadComponent}
+  { path: '', component: NewsletterDownloadComponent},
+  { path: 'upload', component: NewsletterUploadComponent}
 
 ];
 @NgModule({
   declarations: [
     AppComponent,
-     NewsletterDownloadComponent,
+    NewsletterDownloadComponent,
     NewsletterUploadComponent,
     FileSelectDirective
-    
+
   ],
   imports: [
     RouterModule.forRoot(
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
     })
   ],
   providers: [
-    UploadService
+    UploadService,
+    DownloadService
   ],
   bootstrap: [AppComponent]
 })
