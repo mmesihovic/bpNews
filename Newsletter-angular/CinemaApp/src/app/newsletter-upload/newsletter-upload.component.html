@@ -16,10 +16,11 @@
         <input type="email" class="form-control" placeholder="Email"  formControlName="email">
       </div>
   </div>
+
   <div class="col-md-6 offset-3">
     <div class="input-group mb-3">
-        <input type="file" ng2FileSelect [uploader]="uploader"  />
-      <button (click)="uploader.uploadAll()" id="upload-btn"><i class="fa fa-cloud-upload" id="upload-icon"></i></button>
+        <input id="uploader" type="file" (change)= "uploadFiles($event)" />
+      <button (onclick)="uploadFiles()" id="upload-btn"><i class="fa fa-cloud-upload" id="upload-icon"></i></button>
     </div>
 </div>
 </form>

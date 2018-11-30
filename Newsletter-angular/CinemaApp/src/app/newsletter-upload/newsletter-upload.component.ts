@@ -25,9 +25,31 @@ export class NewsletterUploadComponent implements OnInit {
     var name= this.uploadForm.controls.firstName.value;
   }
 
+  public uploadFiles(e) {
+      console.log("READIM NESOT");
+      let input = e.target;
+      console.log(e.target);
+      console.log(e.target.files[0]);
+      var reader = new FileReader();
+
+      var name= this.uploadForm.controls.firstName.value;
+      var last= this.uploadForm.controls.lastName.value;
+      var email= this.uploadForm.controls.email.value;
+
+      reader.readAsArrayBuffer(e.target.files[0]);
+      //reader.readAsDataURL(e.target.files[0]);
+      reader.onloadend = ( () => {
+       // var base64data = reader.result;
+        console.log(reader.result)
+        this.uploadService.uploadFile(reader.result, e.target.files[0].name, name, last, email).subscribe((nesto) =>{ console.log((nesto))});
+      });
+
+  };
+
+
   onSubmit(){
    
-    this.uploader.onAfterAddingFile = (file) => { file.withCredentials = false; };
+    /*this.uploader.onAfterAddingFile = (file) => { file.withCredentials = false; };
     this.uploader.onCompleteItem = (item: any, response: any, status: any, headers: any) => {
       var iriri= item;
       var name= this.uploadForm.controls.firstName.value;
@@ -35,14 +57,14 @@ export class NewsletterUploadComponent implements OnInit {
       var email= this.uploadForm.controls.email.value;
       if(item){
       this.uploadService.uploadFile(item, name, last, email).subscribe(
-        data => { console.log(data) // Data which is returned by call
+        data => { console.log("data" + data) // Data which is returned by call
         },
         error => { console.log(error); // Error if any
         });
     }
          console.log('ImageUpload:uploaded:', item, status, response);
          alert('File uploaded successfully');
-     };
+     };*/
 
 
   }

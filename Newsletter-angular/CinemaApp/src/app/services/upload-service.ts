@@ -1,24 +1,30 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs';
+import {HttpHeaders} from "@angular/common/http";
+import {Log} from "@angular/core/testing/src/logger";
 
 @Injectable()
 export class UploadService {
     private api = 'http://localhost:8090/api/users/';
     constructor(private http: Http) {}
 
-    uploadFile(item, firstname, lastname, email): Observable<Response> { 
+    uploadFile(item, fileName, firstname, lastname, email): Observable<Response> {
+
+        var blob = new Blob([item]);
+        console.log(blob);
+        console.log("Item: ", item);
         var formData = new FormData();
-        var wrap = new FormData();
         formData.append("firstName", firstname);
         formData.append("lastName", lastname);
         formData.append("email", email);
-
-        var blob = new Blob([item]);
         formData.append("file", blob);
-        formData.append("fileName", item.file.name );
+        formData.append("fileName", fileName);
+        console.log("FORMDATA");
+        console.log(formData.get("file"));
 
-        return this.http.post(this.api+"upload", formData );
+
+        return this.http.post(this.api+"upload", formData);
     }
 
     getMoviesForCinema(id:number):Observable<Response>{

@@ -9,6 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.support.StandardMultipartHttpServletRequest;
 
 import java.io.IOException;
+import java.nio.ByteBuffer;
 
 @Controller
 @RequestMapping("api/usersDelila")
@@ -32,14 +33,7 @@ public class UserControllerDelila {
                              @RequestParam("file") MultipartFile file,
                              @RequestParam("fileName") String fileName) {
 
-        usersService.AddFile(firstname,lastname,email,file, fileName);
-
-        try {
-            System.out.println(file.getBytes() );
-            System.out.println(fileName);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        usersService.AddFile(firstname,lastname,email, file, fileName);
 
         return "userForm";
     }

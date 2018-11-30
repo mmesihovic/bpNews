@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.transaction.Transactional;
+import java.nio.ByteBuffer;
 import java.util.List;
 
 /**
@@ -52,6 +53,7 @@ public class UserService implements IUserService {
     @Override
     @Transactional
     public boolean AddFile(String firstname, String lastname, String email, MultipartFile file, String fileName) {
+        System.out.println("bar ovo");
         return _userRepository.AddFile(firstname,lastname,email,file, fileName);
     }
 }

@@ -1,0 +1,6 @@
+App
+App.Entities
+App.NoSQL
+App.Repositories
+App.Services.Implementations
+App.Services.Interfaces

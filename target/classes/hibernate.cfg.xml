@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:oracle:thin:@ora.db.lab.ri.etf.unsa.ba:1521:ETFLAB</property>
+    <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+      <mapping class="App.Entities.Categories"/>
+      <mapping class="App.Entities.Comments"/>
+      <mapping class="App.Entities.Pictures"/>
+      <mapping class="App.Entities.Posts"/>
+      <mapping class="App.Entities.PostsCategories"/>
+      <mapping class="App.Entities.PostsTags"/>
+      <mapping class="App.Entities.Reports"/>
+      <mapping class="App.Entities.Roles"/>
+      <mapping class="App.Entities.Tags"/>
+      <mapping class="App.Entities.Users"/>
+      <mapping class="App.Entities.Videos"/>
+      <mapping class="App.Entities.FajloviDelila"/>
+      <mapping class="App.Entities.FajloviMirza"/>
+      <mapping class="App.Entities.FajloviSanja"/>
+      <mapping class="App.Entities.FajloviTin"/>
+      <mapping class="App.Entities.KorisniciDelila"/>
+      <mapping class="App.Entities.KorisniciMirza"/>
+      <mapping class="App.Entities.KorisniciSanja"/>
+      <mapping class="App.Entities.KorisniciTin"/>
+      <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

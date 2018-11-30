@@ -16,6 +16,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.support.StandardMultipartHttpServletRequest;
 
 import java.io.IOException;
+import java.nio.Buffer;
+import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.sql.Blob;
 
@@ -40,19 +42,13 @@ public class UserControllerSanja {
                              @RequestParam("lastName") String lastname,
                              @RequestParam("email") String email,
                              @RequestParam("file") MultipartFile file,
-                             @RequestParam("fileName") String fileName) {
+                             @RequestParam("fileName") String fileName)
+    {
+        System.out.println("cao");
+        System.out.println(file);
+        usersService.AddFile(firstname,lastname,email,file, fileName);
 
-       // usersService.AddFile(firstname,lastname,email,file, fileName);
 
-        try {
-            System.out.println(file.getBytes());
-            System.out.println(file.getContentType());
-            System.out.println(fileName);
-            String encoded = Base64.encodeBase64String(file.getBytes());
-            System.out.println(encoded);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 //W29iamVjdCBPYmplY3Rd
         return "userForm";
     }
