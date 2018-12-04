@@ -10,7 +10,7 @@ import { UploadService } from 'src/app/services/upload-service';
 })
 export class NewsletterUploadComponent implements OnInit {
   uploadForm: FormGroup;
-  public uploader: FileUploader = new FileUploader(null);
+  names: Array<String> = new Array<String>();
   
   constructor(private formBuilder: FormBuilder,
               private uploadService: UploadService) { }
@@ -26,23 +26,28 @@ export class NewsletterUploadComponent implements OnInit {
   }
 
   public uploadFiles(e) {
-      console.log("READIM NESOT");
       let input = e.target;
       console.log(e.target);
-      console.log(e.target.files[0]);
-      var reader = new FileReader();
+      console.log(e.target.files);
+
+      Array.prototype.forEach.call(e.target.files, (file) => {
+        this.names = new Array<String>();
+        this.names.push(file.name);
+      });
 
       var name= this.uploadForm.controls.firstName.value;
       var last= this.uploadForm.controls.lastName.value;
       var email= this.uploadForm.controls.email.value;
 
-      reader.readAsArrayBuffer(e.target.files[0]);
-      //reader.readAsDataURL(e.target.files[0]);
-      reader.onloadend = ( () => {
-       // var base64data = reader.result;
-        console.log(reader.result)
-        this.uploadService.uploadFile(reader.result, e.target.files[0].name, name, last, email).subscribe((nesto) =>{ console.log((nesto))});
+      Array.prototype.forEach.call(e.target.files, (file) => {
+        var reader = new FileReader();
+        reader.readAsArrayBuffer(file);
+        reader.onloadend = ( () => {
+          console.log(reader.result);
+          this.uploadService.uploadFile(reader.result, file.name, name, last, email).subscribe((nesto) =>{ console.log((nesto))});
+        });
       });
+
 
   };
 

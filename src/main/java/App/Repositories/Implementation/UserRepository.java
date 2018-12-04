@@ -57,17 +57,12 @@ public class UserRepository  {
         FajloviSanja f = new FajloviSanja();
         byte[] byteArr = null;
         try {
-            byteArr = file.getBytes();//.getInputStream().readAllBytes(); //
+            byteArr = file.getBytes();
             f.setContent(byteArr);
             f.setKorisnikid(korisnik.getId());
             f.setName(fileName);
             fajloviSanja.save(f);
-            System.out.println(file + " ovo je file");
-            System.out.println("pozz1"+ fileName);
-            //FileUtils.writeByteArrayToFile(new File("C:\\Users\\aa\\Desktop\\bpnews\\k.txt"),  "Any String you want".getBytes());
-            //System.out.println("Any String you want".getBytes() + "  nas file  " + byteArr);
-            FileUtils.writeByteArrayToFile(new File("C:\\Users\\aa\\Desktop\\bpnews\\"+fileName),  byteArr);
-            System.out.println("pozz");
+            FileUtils.writeByteArrayToFile(new File("C:\\Users\\maste\\Desktop\\bpnews\\"+fileName),  byteArr);
         }
         catch (IOException e){
             e.printStackTrace();
