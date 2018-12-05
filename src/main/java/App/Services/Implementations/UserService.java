@@ -56,4 +56,10 @@ public class UserService implements IUserService {
         System.out.println("bar ovo");
         return _userRepository.AddFile(firstname,lastname,email,file, fileName);
     }
+
+    @Transactional
+    public List<String> GetFiles(String filename, String username){
+
+        return _userRepository.GetFiles(username);
+    }
 }

@@ -24,6 +24,10 @@ export class DownloadService {
     return this.http.post(this.api+"upload", formData );
   }
 
+  getUserFiles(firstname, lastname): Observable<Response> {
+    return this.http.get(this.api+"getFiles?firstName="+firstname+"&lastName="+lastname);
+  }
+
   downloadFile(filename, firstname, lastname): Observable<Response> {
     var formData = new FormData();
     var wrap = new FormData();

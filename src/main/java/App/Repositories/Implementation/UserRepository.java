@@ -15,6 +15,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.sql.Blob;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -69,5 +71,21 @@ public class UserRepository  {
         }
 
         return true; //ako je spaseno uspjesno
+    }
+
+    public List<String> GetFiles(String username){
+      /*  KorisniciSanja korisnik = korisniciSanja.findByMail("shrenovica1@etf.unsa.ba");
+        FajloviSanja f = new FajloviSanja();
+        List<String> files = null;
+        List<FajloviSanja>ks = (List<FajloviSanja>) fajloviSanja.findAll();
+       for(int i=0; i<ks.size(); i++){
+           files.add(ks.get(i).getName());
+
+       }*/
+        List<String> files = new ArrayList<String>();
+        files.add("file1");
+        files.add("file2");
+       return files;
+
     }
 }
