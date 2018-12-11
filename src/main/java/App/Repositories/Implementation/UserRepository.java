@@ -4,9 +4,12 @@ import App.Entities.KorisniciSanja;
 import App.Repositories.IFajloviSanja;
 import App.Repositories.IKorisniciSanjaRepository;
 import org.apache.commons.io.FileUtils;
+import org.hibernate.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.provider.HibernateUtils;
+import org.springframework.data.jpa.repository.query.Procedure;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.jdbc.core.simple.SimpleJdbcCall;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -24,6 +27,8 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
+import javax.persistence.NamedStoredProcedureQueries;
+import javax.persistence.NamedStoredProcedureQuery;
 import javax.servlet.ServletOutputStream;
 
 @Repository
@@ -63,6 +68,7 @@ public class UserRepository  {
             System.out.println("ovdje radi 100% " + byteArr);
             f.setContent(byteArr);
             f.setKorisnikid(korisnik.getId());
+
             f.setName(fileName);
             fajloviSanja.save(f);
             FileUtils.writeByteArrayToFile(new File("C:\\Users\\aa\\Desktop\\bpnews"+fileName),  byteArr);
@@ -70,6 +76,14 @@ public class UserRepository  {
         catch (IOException e){
             e.printStackTrace();
         }
+
+        //poziv procedure
+
+        Query query = session.createSQLQuery(
+                "CALL FAJLOVI_SANJA_INSERT_PROCEDURE(:korisnik)")
+                .setParameter("korisnik", korisnik.getMail());
+
+        query.executeUpdate();
 
         return true; //ako je spaseno uspjesno
     }

@@ -9,6 +9,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.io.File;
 import java.util.Locale;
 
 @SpringBootApplication
@@ -32,6 +33,7 @@ public class Application implements CommandLineRunner{
         {
             System.out.println("Pokrenuo sam see " );
 
+            userService.AddFile("Tin", "Vidovic", "tvidovic1", new File("C:\\Users\\Tin\\Desktop\\aba"), "Tinov file");
             //UserController  uc = new UserController();
 
            // Users u = userService.findByUsername("mmesihovic1");
