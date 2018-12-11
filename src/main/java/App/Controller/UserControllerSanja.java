@@ -3,6 +3,7 @@ package App.Controller;
 import App.Entities.FajloviSanja;
 import App.Entities.KorisniciSanja;
 import App.Entities.Users;
+import App.Repositories.IFajloviSanja;
 import App.Services.Implementations.UserService;
 import com.fasterxml.jackson.databind.ser.Serializers;
 import org.apache.commons.io.FileUtils;
@@ -36,6 +37,8 @@ public class UserControllerSanja {
 
     @Autowired
     UserService usersService;
+    @Autowired
+    IFajloviSanja fajloviSanja;
 
     @RequestMapping(value="/", method = RequestMethod.GET)
     @ResponseBody
@@ -64,7 +67,7 @@ public class UserControllerSanja {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        // usersService.AddFile(firstname,lastname,email,file, fileName);
+         usersService.AddFile(firstname,lastname,email,file, fileName);
 
 
 //W29iamVjdCBPYmplY3Rd
@@ -83,15 +86,27 @@ public class UserControllerSanja {
 
         FajloviSanja f = new FajloviSanja();
         KorisniciSanja ks = new KorisniciSanja();
+
+
+        List<FajloviSanja> listaFajlova = (List<FajloviSanja>) fajloviSanja.findAll();
+
+
+        for(int i=0; i<listaFajlova.size();i++){
+            //System.out.println(listaFajlova.get(i).getName());
+            if(listaFajlova.get(i).getName().contains(fileName)){
+                System.out.println(listaFajlova.get(i).getName() + " nasao");
+                f = listaFajlova.get(i);
+            }
+        }
+        System.out.println(f.getName() + " dobar name");
+        System.out.println(fileName);
+
         byte[] byteArr = null;
         try {
             //GET FILE CONTENT!
-           //f.getContent();
-           //byteArr = hexStringToByteArray("[B@3b666daa");
-           f.setContent(byteArr);
-           f.setKorisnikid(1);
-           f.setName(fileName);
-           FileUtils.writeByteArrayToFile(new File("C:\\Users\\S\\Desktop\\Baze test"+fileName), byteArr);
+           byteArr = f.getContent();
+            System.out.println(byteArr + " bitearr");
+           FileUtils.writeByteArrayToFile(new File("C:\\Users\\aa\\Desktop\\bpnews\\downloaded"+fileName), byteArr);
 
 
         } catch (Exception e) {
@@ -106,9 +121,9 @@ public class UserControllerSanja {
     public List<String> getFileList(@RequestParam("firstName") String firstname,
                                     @RequestParam("lastName") String lastname ) {
 
-         List<String> result = new ArrayList<>() ;
+        List<String> result = new ArrayList<>() ;
         result.add("file1");
-        result.add("file2");//= usersService.GetFiles("", firstname);
+        result = usersService.GetFiles("kk", firstname);
          List<String> response = new ArrayList<>();
          for(String s : result){
              response.add("name:" + s);

@@ -20,7 +20,7 @@ export class NewsletterDownloadComponent implements OnInit {
   downloadItem(){
     //console.log(this.filesForDownload);
    for (var i =0; i<this.filesForDownload.length; i++){
-     this.downloadService.downloadFile("sanja","hrenovica", this.filesForDownload[i] ).subscribe();
+     this.downloadService.downloadFile( this.filesForDownload[i], "sanja", "hrenovica" ).subscribe();
    }
   }
 

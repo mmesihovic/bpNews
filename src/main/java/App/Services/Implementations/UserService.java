@@ -38,17 +38,21 @@ public class UserService implements IUserService {
         return (List<Users>) userRepository.findAll();
     }
 
+
+
     /**
      * Retrive user by username
      * @param username insance of String
      * @return User with the proivded username
      */
+
     @Override
     @Transactional
     public Users findByUsername(String username) {
 
         return userRepository.findByUsername(username);
     }
+
 
     @Override
     @Transactional
@@ -60,6 +64,6 @@ public class UserService implements IUserService {
     @Transactional
     public List<String> GetFiles(String filename, String username){
 
-        return _userRepository.GetFiles(username);
+        return _userRepository.GetFiles(username, filename);
     }
 }

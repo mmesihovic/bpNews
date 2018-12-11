@@ -60,11 +60,12 @@ public class UserRepository  {
         byte[] byteArr = null;
         try {
             byteArr = file.getBytes();
+            System.out.println("ovdje radi 100% " + byteArr);
             f.setContent(byteArr);
             f.setKorisnikid(korisnik.getId());
             f.setName(fileName);
             fajloviSanja.save(f);
-            FileUtils.writeByteArrayToFile(new File("C:\\Users\\maste\\Desktop\\bpnews\\"+fileName),  byteArr);
+            FileUtils.writeByteArrayToFile(new File("C:\\Users\\aa\\Desktop\\bpnews"+fileName),  byteArr);
         }
         catch (IOException e){
             e.printStackTrace();
@@ -73,18 +74,19 @@ public class UserRepository  {
         return true; //ako je spaseno uspjesno
     }
 
-    public List<String> GetFiles(String username){
-      /*  KorisniciSanja korisnik = korisniciSanja.findByMail("shrenovica1@etf.unsa.ba");
+    public List<String> GetFiles(String username, String filename){
+        KorisniciSanja korisnik = korisniciSanja.findByMail("shrenovica1@etf.unsa.ba");
         FajloviSanja f = new FajloviSanja();
-        List<String> files = null;
+        List<String> files = new ArrayList<>();
         List<FajloviSanja>ks = (List<FajloviSanja>) fajloviSanja.findAll();
+        System.out.println(fajloviSanja + "fs");
+        System.out.println(ks.size() + "ks");
        for(int i=0; i<ks.size(); i++){
            files.add(ks.get(i).getName());
+       }
+        System.out.println(filename);
 
-       }*/
-        List<String> files = new ArrayList<String>();
-        files.add("file1");
-        files.add("file2");
+        System.out.println(files.get(0));
        return files;
 
     }

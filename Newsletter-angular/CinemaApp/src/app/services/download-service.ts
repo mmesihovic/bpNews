@@ -32,9 +32,9 @@ export class DownloadService {
     var formData = new FormData();
     var wrap = new FormData();
     let params = new HttpParams();
-    /*    params.set('fileName', filename );
-     params.set('firstName', firstname);
-     params.set('lastName", lastname);      */
+    params.set('fileName', filename );
+    params.set('firstName', firstname);
+    //params.set('lastName", lastname);
 
     return this.http.get(this.api+"download?fileName="+filename+"&firstName="+firstname+"&lastName="+lastname);
 
