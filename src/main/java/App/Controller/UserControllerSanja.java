@@ -4,6 +4,7 @@ import App.Entities.FajloviSanja;
 import App.Entities.KorisniciSanja;
 import App.Entities.Users;
 import App.Repositories.IFajloviSanja;
+import App.Repositories.Implementation.MetaDataRepository;
 import App.Services.Implementations.UserService;
 import com.fasterxml.jackson.databind.ser.Serializers;
 import org.apache.commons.io.FileUtils;
@@ -24,7 +25,7 @@ import java.io.IOException;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
-import java.sql.Blob;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -129,6 +130,99 @@ public class UserControllerSanja {
              response.add("name:" + s);
          }
         return  result;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value="/getMetaData", method = RequestMethod.GET)
+    @ResponseBody
+    public void getMetaData(){
+        String connectionString = "jdbc:oracle:thin:@ora.db.lab.ri.etf.unsa.ba:1521:ETFLAB";
+        String username = "BP20";
+        String password = "qEHBT2wy";
+
+       MetaDataRepository mdr = new MetaDataRepository();
+        try {
+           Connection con = DriverManager.getConnection( connectionString, username, password );;
+            DatabaseMetaData dbm = mdr.getMetadata();
+            mdr.getSchema();
+
+
+            mdr.getTables(dbm, "Categories");
+            mdr.getTables(dbm, "Comments");
+            mdr.getTables(dbm, "Pictures");
+            mdr.getTables(dbm, "Posts");
+            mdr.getTables(dbm, "PostCategories");
+            mdr.getTables(dbm, "PostTags");
+            mdr.getTables(dbm, "Reports");
+            mdr.getTables(dbm, "Tags");
+            mdr.getTables(dbm, "Users");
+            mdr.getTables(dbm, "Videos");
+
+            //Columns
+            mdr.getColumns(dbm, "Categories");
+            mdr.getColumns(dbm, "Comments");
+            mdr.getColumns(dbm, "Pictures");
+            mdr.getColumns(dbm, "Posts");
+            mdr.getColumns(dbm, "PostCategories");
+            mdr.getColumns(dbm, "PostTags");
+            mdr.getColumns(dbm, "Reports");
+            mdr.getColumns(dbm, "Tags");
+            mdr.getColumns(dbm, "Users");
+            mdr.getColumns(dbm, "Videos");
+
+            //Indexes
+            mdr.getIndexes(dbm, "Categories");
+            mdr.getIndexes(dbm, "Comments");
+            mdr.getIndexes(dbm, "Pictures");
+            mdr.getIndexes(dbm, "Posts");
+            mdr.getIndexes(dbm, "PostCategories");
+            mdr.getIndexes(dbm, "PostTags");
+            mdr.getIndexes(dbm, "Reports");
+            mdr.getIndexes(dbm, "Tags");
+            mdr.getIndexes(dbm, "Users");
+            mdr.getIndexes(dbm, "Videos");
+
+            //Views
+            mdr.getViews(dbm, "Categories");
+            mdr.getViews(dbm, "Comments");
+            mdr.getViews(dbm, "Pictures");
+            mdr.getViews(dbm, "Posts");
+            mdr.getViews(dbm, "PostCategories");
+            mdr.getViews(dbm, "PostTags");
+            mdr.getViews(dbm, "Reports");
+            mdr.getViews(dbm, "Tags");
+            mdr.getViews(dbm, "Users");
+            mdr.getViews(dbm, "Videos");
+
+            //PrimaryKeys
+            mdr.getPrimaryKeys(dbm, "Categories");
+            mdr.getPrimaryKeys(dbm, "Comments");
+            mdr.getPrimaryKeys(dbm, "Pictures");
+            mdr.getPrimaryKeys(dbm, "Posts");
+            mdr.getPrimaryKeys(dbm, "PostCategories");
+            mdr.getPrimaryKeys(dbm, "PostTags");
+            mdr.getPrimaryKeys(dbm, "Reports");
+            mdr.getPrimaryKeys(dbm, "Tags");
+            mdr.getPrimaryKeys(dbm, "Users");
+            mdr.getPrimaryKeys(dbm, "Videos");
+
+            //Procedures
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+            mdr.getProcedures(dbm, connectionString);
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
 }

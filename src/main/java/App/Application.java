@@ -1,16 +1,27 @@
 package App;
 
 import App.NoSQL.NoSQLOracleService;
+import App.Repositories.Implementation.MetaDataRepository;
 import App.Services.Implementations.CategoryService;
 import App.Services.Implementations.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.File;
 import java.util.Locale;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.*;
+import org.springframework.boot.autoconfigure.orm.jpa.*;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
 @SpringBootApplication
 public class Application implements CommandLineRunner{
@@ -32,8 +43,9 @@ public class Application implements CommandLineRunner{
 
         {
             System.out.println("Pokrenuo sam see " );
-
-            userService.AddFile("Tin", "Vidovic", "tvidovic1", new File("C:\\Users\\Tin\\Desktop\\aba"), "Tinov file");
+            MetaDataRepository mdr = new MetaDataRepository();
+            mdr.getSchema();
+            //userService.AddFile("Tin", "Vidovic", "tvidovic1", new File("C:\\Users\\Tin\\Desktop\\aba"), "Tinov file");
             //UserController  uc = new UserController();
 
            // Users u = userService.findByUsername("mmesihovic1");
