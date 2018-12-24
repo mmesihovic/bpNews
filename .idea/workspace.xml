@@ -1,12 +1,1006 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c908537-04ba-4e3c-abf5-b4efdc2aa293" name="Default Changelist" comment="">
+    <list default="true" id="4c908537-04ba-4e3c-abf5-b4efdc2aa293" name="Default Changelist" comment="Database documentation update">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/database link/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/dbdoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/dbdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/empty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/function/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/APP_USER_LOG_PK/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/DELILA_PK/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIDELILA_NAME/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVIMIRZA_NAME/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVISANJA_NAME/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/IX_FAJLOVITIN_NAME/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232966/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232971/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232974/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232976/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232978/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232981/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232990/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00232999/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233005/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233009/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00233014/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253471/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253475/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253585/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253589/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253594/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253598/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253638/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/SYS_C00253642/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/TIN_PK/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/nodeTypes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/package/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_SANJA_INSERT_PROCEDURE/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/FAJLOVI_TIN_INSERT_PROCEDURE/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/procedure/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/public database link/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/round_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/APP_USER_LOG_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/CATEGORIES_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/COMMENTS_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIDELILA_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVIMIRZA_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVISANJA_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/FAJLOVITIN_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIDELILA_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICIMIRZA_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICISANJA_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/KORISNICITIN_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/PICTURES_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSCATEGORIES_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTSTAGS_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/POSTS_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/REPORTS_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/ROLES_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/TAGS_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/USERS_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/VIDEOS_ID_SEQ/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/sequence/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/synonym/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/APP_USER_LOG/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/CATEGORIES/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/COMMENTS/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/DELILA/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIDELILA/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVIMIRZA/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVISANJA/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/FAJLOVITIN/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIDELILA/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICIMIRZA/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICISANJA/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/KORISNICITIN/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/PICTURES/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTS/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSCATEGORIES/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/POSTSTAGS/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/REPORTS/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/ROLES/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TAGS/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/TIN/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/USERS/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/VIDEOS/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/table/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/CATEGORIES_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/COMMENTS_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIDELILA_NAME_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVIMIRZA_NAME_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVISANJA_NAME_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/FAJLOVITIN_NAME_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIDELILA_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICIMIRZA_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICISANJA_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/KORISNICITIN_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/PICTURES_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSCATEGORIES_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTSTAGS_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/POSTS_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/REPORTS_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/ROLES_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/TAGS_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/USERS_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/headerBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/topDimTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/topDimTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/topDimTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/topTabBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/topTabL.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/VIDEOS_ID_TRIGGER/topTabR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/trigger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/type/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseDocumentation/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3eb90014-7fb7-4c1b-bcf7-7d1b41ce02ac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3eb90014-7fb7-4c1b-bcf7-7d1b41ce02ac.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App/Controller/UserControllerSanja.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App/Controller/UserControllerSanja.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App/NoSQL/NoSQLOracleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App/NoSQL/NoSQLOracleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App/Repositories/Implementation/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App/Repositories/Implementation/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Controller/UserControllerDelila.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Controller/UserControllerMirza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Controller/UserControllerSanja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Controller/UserControllerTin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Categories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Comments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/FajloviDelila.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/FajloviMirza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/FajloviSanja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/FajloviTin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/KorisniciDelila.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/KorisniciMirza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/KorisniciSanja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/KorisniciTin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Pictures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Posts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/PostsCategories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/PostsTags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Reports.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Roles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Tags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Entities/Videos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/NoSQL/CategoryNoSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/NoSQL/CommentNoSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/NoSQL/NoSQLOracleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/NoSQL/PostNoSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/NoSQL/UserNoSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Repositories/ICategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Repositories/ICommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Repositories/IFajloviSanja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Repositories/IKorisniciSanjaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Repositories/ITagRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Repositories/IUserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Repositories/Implementation/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Services/Implementations/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Services/Implementations/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Services/Implementations/TagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Services/Implementations/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Services/Interfaces/ICategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Services/Interfaces/ICommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Services/Interfaces/ITagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Services/Interfaces/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,31 +1025,6 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@bpnews" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@bpnews" type="feb32156:DbDataSourceImpl" />
-        <item name="BP20: schema" type="ac44c5e0:OracleImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@bpnews" type="feb32156:DbDataSourceImpl" />
-        <item name="BP20: schema" type="ac44c5e0:OracleImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@bpnews" type="feb32156:DbDataSourceImpl" />
-        <item name="BP20: schema" type="ac44c5e0:OracleImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="FAJLOVISANJA: table" type="be4db629:OracleImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@bpnews" type="feb32156:DbDataSourceImpl" />
-        <item name="BP20: schema" type="ac44c5e0:OracleImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="TAGS: table" type="be4db629:OracleImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -221,14 +1190,65 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-549759369">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="51" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/App/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+            <state relative-caret-position="1224">
+              <caret line="102" column="41" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1544561439356" expanded="true" signature="3750:3780" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/IUserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/IFajloviSanja.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -237,10 +1257,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/UserControllerSanja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-403">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state relative-caret-position="1802">
+              <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/MetaDataRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/MigrationRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -248,8 +1304,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App/Helpers/Column.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
                 <element signature="e#365#366#0" expanded="true" />
                 <element signature="e#396#397#0" expanded="true" />
@@ -258,16 +1314,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/MigrationRepository.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="202" column="28" lean-forward="true" selection-start-line="202" selection-start-column="28" selection-end-line="202" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2640#2648#0" expanded="true" />
-                <element signature="e#3932#3940#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -289,9 +1340,11 @@
       <find>files</find>
       <find>mongo</find>
       <find>mysql</find>
+      <find>column</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -366,10 +1419,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-10" />
+    <option name="width" value="1200" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -397,35 +1449,124 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bpNews" type="462c0819:PsiDirectoryNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bpNews" type="462c0819:PsiDirectoryNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bpNews" type="462c0819:PsiDirectoryNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="class-use" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpnews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BAZE" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,7 +1583,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545689330282" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545693622616" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -538,6 +1679,7 @@
       <workItem from="1543995912630" duration="6470000" />
       <workItem from="1545308355080" duration="240000" />
       <workItem from="1545653823602" duration="14054000" />
+      <workItem from="1545693335620" duration="279000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit with working app">
       <created>1541173041527</created>
@@ -585,13 +1727,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128104000" />
+    <option name="totallyTimeSpent" value="130331000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.1130064" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.2946309" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.50127876" side_tool="true" weight="0.25503355" />
       <window_info id="Designer" order="3" />
@@ -611,10 +1752,10 @@
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.35341153" side_tool="true" weight="0.44527897" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32832617" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4978678" weight="0.30150214" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.4978678" visible="true" weight="0.30028328" />
       <window_info anchor="bottom" id="TypeScript" order="15" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -622,7 +1763,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.20682302" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.20671141" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32932165" />
@@ -678,12 +1819,10 @@
     <MESSAGE value="Added NoSQLOracleService" />
     <MESSAGE value="Fixed blob insert" />
     <MESSAGE value="Added support for Oracle -&gt; MySQL migration (Tables and Data)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for Oracle -&gt; MySQL migration (Tables and Data)" />
+    <MESSAGE value="Database documentation update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database documentation update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -876,8 +2015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App/Services/Implementations/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="918">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -895,54 +2034,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/IUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/UserControllerSanja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="145" column="42" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/01050635-b66e-4a64-b777-87e777b0d5a7/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/01050635-b66e-4a64-b777-87e777b0d5a7/console.sql" />
+    <entry file="file://$PROJECT_DIR$/target/classes/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/App/NoSQL/CategoryNoSQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/MetaDataRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -960,27 +2057,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar!/META-INF/maven/com.fasterxml/classmate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="102" column="41" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1544561439356" expanded="true" signature="3750:3780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/IUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/IFajloviSanja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/UserControllerSanja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="1802">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/MetaDataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App/Helpers/Column.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
             <element signature="e#365#366#0" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
@@ -988,25 +2131,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/Implementation/MigrationRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="202" column="28" lean-forward="true" selection-start-line="202" selection-start-column="28" selection-end-line="202" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2640#2648#0" expanded="true" />
-            <element signature="e#3932#3940#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
