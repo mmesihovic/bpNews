@@ -3,9 +3,9 @@ package App.Repositories.Implementation;
 import java.sql.*;
 
 public class MetaDataRepository {
-   private final String connectionString = "jdbc:oracle:thin:@ora.db.lab.ri.etf.unsa.ba:1521:ETFLAB";
+   private final String connectionString = "jdbc:oracle:thin:@localhost:1521:XE";
     private final String username = "BP20";
-    private final String password = "qEHBT2wy";
+    private final String password = "bppassword";
 
 
     public DatabaseMetaData getMetadata() throws SQLException, ClassNotFoundException
@@ -31,7 +31,7 @@ public class MetaDataRepository {
         ResultSet schema = null;
         String[] objectTypes = {"TABLE"};
         try {
-            schema = md.getTables(connectionString, "%", "%", objectTypes);
+            schema = md.getTables(connectionString, "BP20", "%", objectTypes);
             while (schema.next()) {
                 String dbName = schema.getString(1);
                 String tableNames = schema.getString(3);

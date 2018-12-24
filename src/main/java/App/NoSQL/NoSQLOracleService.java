@@ -23,7 +23,7 @@ public class NoSQLOracleService {
      * Requires no parameters.
      */
     public NoSQLOracleService(){
-        mongoClient = new MongoClient(new MongoClientURI("mongodb://ddevic1:ddevic1@cluster0-shard-00-00-ohdsv.mongodb.net:27017,cluster0-shard-00-01-ohdsv.mongodb.net:27017,cluster0-shard-00-02-ohdsv.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"));
+        //mongoClient = new MongoClient(new MongoClientURI("mongodb://ddevic1:ddevic1@cluster0-shard-00-00-ohdsv.mongodb.net:27017,cluster0-shard-00-01-ohdsv.mongodb.net:27017,cluster0-shard-00-02-ohdsv.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"));
         db = mongoClient.getDatabase("prsdb1");
         collection = db.getCollection("Post");
         userService = new UserService();

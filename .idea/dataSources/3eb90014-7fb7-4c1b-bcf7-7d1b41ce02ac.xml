@@ -6,9 +6,9 @@
     </root>
     <schema id="2" parent="1" name="BP20">
       <ObjectId>916</ObjectId>
-      <IntrospectionTimestamp>2018-11-30.21:25:17</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-12-17.19:19:02</IntrospectionTimestamp>
       <CreatedTimestamp>2018-10-29.18:01:56</CreatedTimestamp>
-      <ModifiedTimestamp>2018-11-30.14:45:28</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-12-11.19:34:30</ModifiedTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -2685,276 +2685,340 @@
     <schema id="893" parent="1" name="XS$NULL">
       <ObjectId>2147483638</ObjectId>
     </schema>
-    <sequence id="894" parent="2" name="CATEGORIES_ID_SEQ">
+    <sequence id="894" parent="2" name="APP_USER_LOG_ID_SEQ">
+      <ObjectId>418600</ObjectId>
+      <CreatedTimestamp>2018-12-11.19:10:50</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-11.19:10:50</ModifiedTimestamp>
+      <SequenceIdentity>0</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="895" parent="2" name="CATEGORIES_ID_SEQ">
       <ObjectId>369589</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:56</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:56</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="895" parent="2" name="COMMENTS_ID_SEQ">
+    <sequence id="896" parent="2" name="COMMENTS_ID_SEQ">
       <ObjectId>369593</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:57</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:57</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="896" parent="2" name="FAJLOVIDELILA_ID_SEQ">
+    <sequence id="897" parent="2" name="FAJLOVIDELILA_ID_SEQ">
       <ObjectId>405341</ObjectId>
       <CreatedTimestamp>2018-11-27.17:12:33</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:12:33</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="897" parent="2" name="FAJLOVIMIRZA_ID_SEQ">
+    <sequence id="898" parent="2" name="FAJLOVIMIRZA_ID_SEQ">
       <ObjectId>405339</ObjectId>
       <CreatedTimestamp>2018-11-27.17:12:32</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:12:32</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="898" parent="2" name="FAJLOVISANJA_ID_SEQ">
+    <sequence id="899" parent="2" name="FAJLOVISANJA_ID_SEQ">
       <ObjectId>405340</ObjectId>
       <CreatedTimestamp>2018-11-27.17:12:32</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:12:32</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="899" parent="2" name="FAJLOVITIN_ID_SEQ">
+    <sequence id="900" parent="2" name="FAJLOVITIN_ID_SEQ">
       <ObjectId>405342</ObjectId>
       <CreatedTimestamp>2018-11-27.17:12:33</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:12:33</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="900" parent="2" name="KORISNICIDELILA_ID_SEQ">
+    <sequence id="901" parent="2" name="KORISNICIDELILA_ID_SEQ">
       <ObjectId>405336</ObjectId>
       <CreatedTimestamp>2018-11-27.17:12:32</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:12:32</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="901" parent="2" name="KORISNICIMIRZA_ID_SEQ">
+    <sequence id="902" parent="2" name="KORISNICIMIRZA_ID_SEQ">
       <ObjectId>405337</ObjectId>
       <CreatedTimestamp>2018-11-27.17:12:32</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:12:32</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="902" parent="2" name="KORISNICISANJA_ID_SEQ">
+    <sequence id="903" parent="2" name="KORISNICISANJA_ID_SEQ">
       <ObjectId>405335</ObjectId>
       <CreatedTimestamp>2018-11-27.17:12:32</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:12:32</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="903" parent="2" name="KORISNICITIN_ID_SEQ">
+    <sequence id="904" parent="2" name="KORISNICITIN_ID_SEQ">
       <ObjectId>405338</ObjectId>
       <CreatedTimestamp>2018-11-27.17:12:32</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:12:32</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="904" parent="2" name="PICTURES_ID_SEQ">
+    <sequence id="905" parent="2" name="PICTURES_ID_SEQ">
       <ObjectId>369591</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:57</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:57</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="905" parent="2" name="POSTSCATEGORIES_ID_SEQ">
+    <sequence id="906" parent="2" name="POSTSCATEGORIES_ID_SEQ">
       <ObjectId>369596</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:57</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:57</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="906" parent="2" name="POSTSTAGS_ID_SEQ">
+    <sequence id="907" parent="2" name="POSTSTAGS_ID_SEQ">
       <ObjectId>369595</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:57</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:57</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="907" parent="2" name="POSTS_ID_SEQ">
+    <sequence id="908" parent="2" name="POSTS_ID_SEQ">
       <ObjectId>369594</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:57</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:57</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="908" parent="2" name="REPORTS_ID_SEQ">
+    <sequence id="909" parent="2" name="REPORTS_ID_SEQ">
       <ObjectId>369592</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:57</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:57</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="909" parent="2" name="ROLES_ID_SEQ">
+    <sequence id="910" parent="2" name="ROLES_ID_SEQ">
       <ObjectId>369586</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:56</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:56</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="910" parent="2" name="TAGS_ID_SEQ">
+    <sequence id="911" parent="2" name="TAGS_ID_SEQ">
       <ObjectId>369588</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:56</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:56</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="911" parent="2" name="USERS_ID_SEQ">
+    <sequence id="912" parent="2" name="USERS_ID_SEQ">
       <ObjectId>369587</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:56</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:56</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <sequence id="912" parent="2" name="VIDEOS_ID_SEQ">
+    <sequence id="913" parent="2" name="VIDEOS_ID_SEQ">
       <ObjectId>369590</ObjectId>
       <CreatedTimestamp>2018-10-29.18:01:56</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:01:56</ModifiedTimestamp>
       <SequenceIdentity>0</SequenceIdentity>
       <CacheSize>-2147483648</CacheSize>
     </sequence>
-    <table id="913" parent="2" name="CATEGORIES">
+    <table id="914" parent="2" name="APP_USER_LOG">
+      <ObjectId>418598</ObjectId>
+      <CreatedTimestamp>2018-12-11.19:10:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-11.19:10:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="915" parent="2" name="CATEGORIES">
       <ObjectId>369604</ObjectId>
       <CreatedTimestamp>2018-10-29.18:22:34</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:23:59</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="914" parent="2" name="COMMENTS">
+    <table id="916" parent="2" name="COMMENTS">
       <ObjectId>369616</ObjectId>
       <CreatedTimestamp>2018-10-29.18:23:10</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:24:30</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="915" parent="2" name="DELILA">
+    <table id="917" parent="2" name="DELILA">
       <ObjectId>415034</ObjectId>
       <CreatedTimestamp>2018-11-30.14:36:26</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-30.14:44:23</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="916" parent="2" name="FAJLOVIDELILA">
+    <table id="918" parent="2" name="FAJLOVIDELILA">
       <ObjectId>385020</ObjectId>
       <CreatedTimestamp>2018-11-13.17:58:51</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:19:11</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="917" parent="2" name="FAJLOVIMIRZA">
+    <table id="919" parent="2" name="FAJLOVIMIRZA">
       <ObjectId>384872</ObjectId>
       <CreatedTimestamp>2018-11-13.17:33:44</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:16:02</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="918" parent="2" name="FAJLOVISANJA">
+    <table id="920" parent="2" name="FAJLOVISANJA">
       <ObjectId>384981</ObjectId>
       <CreatedTimestamp>2018-11-13.17:57:57</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:22:49</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="919" parent="2" name="FAJLOVITIN">
+    <table id="921" parent="2" name="FAJLOVITIN">
       <ObjectId>384973</ObjectId>
       <CreatedTimestamp>2018-11-13.17:57:06</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:19:28</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="920" parent="2" name="KORISNICIDELILA">
+    <table id="922" parent="2" name="KORISNICIDELILA">
       <ObjectId>385018</ObjectId>
       <CreatedTimestamp>2018-11-13.17:58:48</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:16:02</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="921" parent="2" name="KORISNICIMIRZA">
+    <table id="923" parent="2" name="KORISNICIMIRZA">
       <ObjectId>384870</ObjectId>
       <CreatedTimestamp>2018-11-13.17:33:38</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:16:02</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="922" parent="2" name="KORISNICISANJA">
+    <table id="924" parent="2" name="KORISNICISANJA">
       <ObjectId>384979</ObjectId>
       <CreatedTimestamp>2018-11-13.17:57:55</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:16:01</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="923" parent="2" name="KORISNICITIN">
+    <table id="925" parent="2" name="KORISNICITIN">
       <ObjectId>384971</ObjectId>
       <CreatedTimestamp>2018-11-13.17:56:55</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-27.17:16:02</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="924" parent="2" name="PICTURES">
+    <table id="926" parent="2" name="PICTURES">
       <ObjectId>369608</ObjectId>
       <CreatedTimestamp>2018-10-29.18:22:43</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:24:17</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="925" parent="2" name="POSTS">
+    <table id="927" parent="2" name="POSTS">
       <ObjectId>369612</ObjectId>
       <CreatedTimestamp>2018-10-29.18:22:57</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-30.18:02:50</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="926" parent="2" name="POSTSCATEGORIES">
+    <table id="928" parent="2" name="POSTSCATEGORIES">
       <ObjectId>369622</ObjectId>
       <CreatedTimestamp>2018-10-29.18:23:29</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-30.20:26:59</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="927" parent="2" name="POSTSTAGS">
+    <table id="929" parent="2" name="POSTSTAGS">
       <ObjectId>369620</ObjectId>
       <CreatedTimestamp>2018-10-29.18:23:24</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:24:45</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="928" parent="2" name="REPORTS">
+    <table id="930" parent="2" name="REPORTS">
       <ObjectId>369618</ObjectId>
       <CreatedTimestamp>2018-10-29.18:23:17</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:24:37</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="929" parent="2" name="ROLES">
+    <table id="931" parent="2" name="ROLES">
       <ObjectId>369598</ObjectId>
       <CreatedTimestamp>2018-10-29.18:21:52</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:23:37</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="930" parent="2" name="TAGS">
+    <table id="932" parent="2" name="TAGS">
       <ObjectId>369602</ObjectId>
       <CreatedTimestamp>2018-10-29.18:22:26</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:23:53</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="931" parent="2" name="TIN">
+    <table id="933" parent="2" name="TIN">
       <ObjectId>415036</ObjectId>
       <CreatedTimestamp>2018-11-30.14:45:16</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-30.14:45:28</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="932" parent="2" name="USERS">
+    <table id="934" parent="2" name="USERS">
       <ObjectId>369600</ObjectId>
       <CreatedTimestamp>2018-10-29.18:22:21</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:23:46</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="933" parent="2" name="VIDEOS">
+    <table id="935" parent="2" name="VIDEOS">
       <ObjectId>369606</ObjectId>
       <CreatedTimestamp>2018-10-29.18:22:39</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-29.18:24:08</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <column id="934" parent="913" name="ID">
+    <routine id="936" parent="2" name="FAJLOVI_SANJA_INSERT_PROCEDURE">
+      <ObjectId>418608</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>293</SourceTextLength>
+      <DependsOnIds>418598,418600</DependsOnIds>
+      <CreatedTimestamp>2018-12-11.19:34:30</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-11.19:34:30</ModifiedTimestamp>
+    </routine>
+    <routine id="937" parent="2" name="FAJLOVI_TIN_INSERT_PROCEDURE">
+      <ObjectId>418603</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>289</SourceTextLength>
+      <DependsOnIds>418598,418600</DependsOnIds>
+      <CreatedTimestamp>2018-12-11.19:15:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-11.19:15:11</ModifiedTimestamp>
+    </routine>
+    <column id="938" parent="914" name="APP_USER_LOG_ID">
       <Position>1</Position>
-      <DataType>NUMBER(*)|0s</DataType>
+      <DataType>NUMBER(10 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="935" parent="913" name="NAME">
+    <column id="939" parent="914" name="APP_USER_LOG_USER">
       <Position>2</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="936" parent="913" name="SYS_C00232976">
+    <column id="940" parent="914" name="APP_USER_LOG_COMMAND">
+      <Position>3</Position>
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="941" parent="914" name="APP_USER_LOG_TABLE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="942" parent="914" name="APP_USER_LOG_PK">
+      <ObjectId>418599</ObjectId>
+      <CreatedTimestamp>2018-12-11.19:10:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-11.19:10:49</ModifiedTimestamp>
+      <TablespaceName>ETFLAB</TablespaceName>
+      <ColNames>APP_USER_LOG_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="943" parent="914" name="APP_USER_LOG_PK">
+      <ModifiedTimestamp>2018-12-11.19:10:49</ModifiedTimestamp>
+      <ColNames>APP_USER_LOG_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>APP_USER_LOG_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="944" parent="915" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="945" parent="915" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="946" parent="915" name="SYS_C00232976">
       <ObjectId>369605</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:22:34</CreatedTimestamp>
@@ -2963,7 +3027,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="937" parent="913" name="SYS_C00232976">
+    <key id="947" parent="915" name="SYS_C00232976">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:22:34</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -2971,7 +3035,7 @@
       <UnderlyingIndexName>SYS_C00232976</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <trigger id="938" parent="913" name="CATEGORIES_ID_TRIGGER">
+    <trigger id="948" parent="915" name="CATEGORIES_ID_TRIGGER">
       <ObjectId>369627</ObjectId>
       <SourceTextLength>77</SourceTextLength>
       <DependsOnIds>117,369589</DependsOnIds>
@@ -2980,36 +3044,36 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="939" parent="914" name="ID">
+    <column id="949" parent="916" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="940" parent="914" name="AUTHORID">
+    <column id="950" parent="916" name="AUTHORID">
       <Position>2</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="941" parent="914" name="POSTID">
+    <column id="951" parent="916" name="POSTID">
       <Position>3</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="942" parent="914" name="TEXT">
+    <column id="952" parent="916" name="TEXT">
       <Position>4</Position>
       <DataType>VARCHAR2(255 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="943" parent="914" name="REPLYTO">
+    <column id="953" parent="916" name="REPLYTO">
       <Position>5</Position>
       <DataType>NUMBER(*)|0s</DataType>
     </column>
-    <column id="944" parent="914" name="PUBLISHEDAT">
+    <column id="954" parent="916" name="PUBLISHEDAT">
       <Position>6</Position>
       <DataType>DATE|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="945" parent="914" name="SYS_C00232999">
+    <index id="955" parent="916" name="SYS_C00232999">
       <ObjectId>369617</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:23:10</CreatedTimestamp>
@@ -3018,7 +3082,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="946" parent="914" name="SYS_C00232999">
+    <key id="956" parent="916" name="SYS_C00232999">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:23:10</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3026,7 +3090,7 @@
       <UnderlyingIndexName>SYS_C00232999</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="947" parent="914" name="FK_COMMENTS_AUTHORID">
+    <foreign-key id="957" parent="916" name="FK_COMMENTS_AUTHORID">
       <ModifiedTimestamp>2018-10-29.18:23:10</ModifiedTimestamp>
       <ColNames>AUTHORID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3034,7 +3098,7 @@
       <RefKeyName>SYS_C00232971</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="948" parent="914" name="FK_COMMENTS_POSTID">
+    <foreign-key id="958" parent="916" name="FK_COMMENTS_POSTID">
       <ModifiedTimestamp>2018-10-29.18:23:10</ModifiedTimestamp>
       <ColNames>POSTID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3042,7 +3106,7 @@
       <RefKeyName>SYS_C00232990</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="949" parent="914" name="FK_COMMENTS_REPLYTO">
+    <foreign-key id="959" parent="916" name="FK_COMMENTS_REPLYTO">
       <ModifiedTimestamp>2018-10-29.18:23:10</ModifiedTimestamp>
       <ColNames>REPLYTO</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3050,7 +3114,7 @@
       <RefKeyName>SYS_C00232999</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="950" parent="914" name="COMMENTS_ID_TRIGGER">
+    <trigger id="960" parent="916" name="COMMENTS_ID_TRIGGER">
       <ObjectId>369631</ObjectId>
       <SourceTextLength>75</SourceTextLength>
       <DependsOnIds>117,369593</DependsOnIds>
@@ -3059,17 +3123,17 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="951" parent="915" name="ID">
+    <column id="961" parent="917" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(10 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="952" parent="915" name="TEXT">
+    <column id="962" parent="917" name="TEXT">
       <Position>2</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="953" parent="915" name="DELILA_PK">
+    <index id="963" parent="917" name="DELILA_PK">
       <ObjectId>415035</ObjectId>
       <CreatedTimestamp>2018-11-30.14:36:26</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-30.14:36:26</ModifiedTimestamp>
@@ -3077,34 +3141,34 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="954" parent="915" name="DELILA_PK">
+    <key id="964" parent="917" name="DELILA_PK">
       <ModifiedTimestamp>2018-11-30.14:36:26</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>DELILA_PK</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="955" parent="916" name="ID">
+    <column id="965" parent="918" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="956" parent="916" name="NAME">
+    <column id="966" parent="918" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="957" parent="916" name="CONTENT">
+    <column id="967" parent="918" name="CONTENT">
       <Position>3</Position>
       <DataType>BLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="958" parent="916" name="KORISNIKID">
+    <column id="968" parent="918" name="KORISNIKID">
       <Position>4</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="959" parent="916" name="SYS_C00253642">
+    <index id="969" parent="918" name="SYS_C00253642">
       <ObjectId>385023</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-11-13.17:58:51</CreatedTimestamp>
@@ -3113,14 +3177,14 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="960" parent="916" name="IX_FAJLOVIDELILA_NAME">
+    <index id="970" parent="918" name="IX_FAJLOVIDELILA_NAME">
       <ObjectId>385024</ObjectId>
       <CreatedTimestamp>2018-11-13.17:58:53</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-13.17:58:53</ModifiedTimestamp>
       <TablespaceName>ETFLAB</TablespaceName>
       <ColNames>NAME</ColNames>
     </index>
-    <key id="961" parent="916" name="SYS_C00253642">
+    <key id="971" parent="918" name="SYS_C00253642">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-11-13.17:58:51</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3128,7 +3192,7 @@
       <UnderlyingIndexName>SYS_C00253642</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="962" parent="916" name="FK_FAJLOVIDELILA">
+    <foreign-key id="972" parent="918" name="FK_FAJLOVIDELILA">
       <ModifiedTimestamp>2018-11-13.17:58:51</ModifiedTimestamp>
       <ColNames>KORISNIKID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3136,7 +3200,7 @@
       <RefKeyName>SYS_C00253638</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="963" parent="916" name="FAJLOVIDELILA_ID_TRIGGER">
+    <trigger id="973" parent="918" name="FAJLOVIDELILA_ID_TRIGGER">
       <ObjectId>405352</ObjectId>
       <SourceTextLength>80</SourceTextLength>
       <DependsOnIds>117,405341</DependsOnIds>
@@ -3145,7 +3209,7 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <trigger id="964" parent="916" name="FAJLOVIDELILA_NAME_TRIGGER">
+    <trigger id="974" parent="918" name="FAJLOVIDELILA_NAME_TRIGGER">
       <ObjectId>385025</ObjectId>
       <SourceTextLength>227</SourceTextLength>
       <DependsOnIds>1221</DependsOnIds>
@@ -3154,27 +3218,27 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="965" parent="917" name="ID">
+    <column id="975" parent="919" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="966" parent="917" name="NAME">
+    <column id="976" parent="919" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="967" parent="917" name="CONTENT">
+    <column id="977" parent="919" name="CONTENT">
       <Position>3</Position>
       <DataType>BLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="968" parent="917" name="KORISNIKID">
+    <column id="978" parent="919" name="KORISNIKID">
       <Position>4</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="969" parent="917" name="SYS_C00253475">
+    <index id="979" parent="919" name="SYS_C00253475">
       <ObjectId>384875</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-11-13.17:33:44</CreatedTimestamp>
@@ -3183,14 +3247,14 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="970" parent="917" name="IX_FAJLOVIMIRZA_NAME">
+    <index id="980" parent="919" name="IX_FAJLOVIMIRZA_NAME">
       <ObjectId>384876</ObjectId>
       <CreatedTimestamp>2018-11-13.17:33:49</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-13.17:33:49</ModifiedTimestamp>
       <TablespaceName>ETFLAB</TablespaceName>
       <ColNames>NAME</ColNames>
     </index>
-    <key id="971" parent="917" name="SYS_C00253475">
+    <key id="981" parent="919" name="SYS_C00253475">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-11-13.17:33:44</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3198,7 +3262,7 @@
       <UnderlyingIndexName>SYS_C00253475</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="972" parent="917" name="FK_FAJLOVIMIRZA">
+    <foreign-key id="982" parent="919" name="FK_FAJLOVIMIRZA">
       <ModifiedTimestamp>2018-11-13.17:33:44</ModifiedTimestamp>
       <ColNames>KORISNIKID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3206,7 +3270,7 @@
       <RefKeyName>SYS_C00253471</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="973" parent="917" name="FAJLOVIMIRZA_ID_TRIGGER">
+    <trigger id="983" parent="919" name="FAJLOVIMIRZA_ID_TRIGGER">
       <ObjectId>405353</ObjectId>
       <SourceTextLength>79</SourceTextLength>
       <DependsOnIds>117,405339</DependsOnIds>
@@ -3215,7 +3279,7 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <trigger id="974" parent="917" name="FAJLOVIMIRZA_NAME_TRIGGER">
+    <trigger id="984" parent="919" name="FAJLOVIMIRZA_NAME_TRIGGER">
       <ObjectId>384877</ObjectId>
       <SourceTextLength>226</SourceTextLength>
       <DependsOnIds>1221</DependsOnIds>
@@ -3224,27 +3288,27 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="975" parent="918" name="ID">
+    <column id="985" parent="920" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="976" parent="918" name="NAME">
+    <column id="986" parent="920" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="977" parent="918" name="CONTENT">
+    <column id="987" parent="920" name="CONTENT">
       <Position>3</Position>
       <DataType>BLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="978" parent="918" name="KORISNIKID">
+    <column id="988" parent="920" name="KORISNIKID">
       <Position>4</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="979" parent="918" name="SYS_C00253598">
+    <index id="989" parent="920" name="SYS_C00253598">
       <ObjectId>384984</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-11-13.17:57:57</CreatedTimestamp>
@@ -3253,14 +3317,14 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="980" parent="918" name="IX_FAJLOVISANJA_NAME">
+    <index id="990" parent="920" name="IX_FAJLOVISANJA_NAME">
       <ObjectId>384985</ObjectId>
       <CreatedTimestamp>2018-11-13.17:57:59</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-13.17:57:59</ModifiedTimestamp>
       <TablespaceName>ETFLAB</TablespaceName>
       <ColNames>NAME</ColNames>
     </index>
-    <key id="981" parent="918" name="SYS_C00253598">
+    <key id="991" parent="920" name="SYS_C00253598">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-11-13.17:57:57</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3268,7 +3332,7 @@
       <UnderlyingIndexName>SYS_C00253598</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="982" parent="918" name="FK_FAJLOVISANJA">
+    <foreign-key id="992" parent="920" name="FK_FAJLOVISANJA">
       <ModifiedTimestamp>2018-11-13.17:57:57</ModifiedTimestamp>
       <ColNames>KORISNIKID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3276,7 +3340,7 @@
       <RefKeyName>SYS_C00253594</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="983" parent="918" name="FAJLOVISANJA_ID_TRIGGER">
+    <trigger id="993" parent="920" name="FAJLOVISANJA_ID_TRIGGER">
       <ObjectId>405351</ObjectId>
       <SourceTextLength>79</SourceTextLength>
       <DependsOnIds>117,405340</DependsOnIds>
@@ -3285,7 +3349,7 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <trigger id="984" parent="918" name="FAJLOVISANJA_NAME_TRIGGER">
+    <trigger id="994" parent="920" name="FAJLOVISANJA_NAME_TRIGGER">
       <ObjectId>384986</ObjectId>
       <SourceTextLength>250</SourceTextLength>
       <DependsOnIds>1221</DependsOnIds>
@@ -3294,27 +3358,27 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="985" parent="919" name="ID">
+    <column id="995" parent="921" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="986" parent="919" name="NAME">
+    <column id="996" parent="921" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="987" parent="919" name="CONTENT">
+    <column id="997" parent="921" name="CONTENT">
       <Position>3</Position>
       <DataType>BLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="988" parent="919" name="KORISNIKID">
+    <column id="998" parent="921" name="KORISNIKID">
       <Position>4</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="989" parent="919" name="SYS_C00253589">
+    <index id="999" parent="921" name="SYS_C00253589">
       <ObjectId>384976</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-11-13.17:57:06</CreatedTimestamp>
@@ -3323,14 +3387,14 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="990" parent="919" name="IX_FAJLOVITIN_NAME">
+    <index id="1000" parent="921" name="IX_FAJLOVITIN_NAME">
       <ObjectId>384977</ObjectId>
       <CreatedTimestamp>2018-11-13.17:57:09</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-13.17:57:09</ModifiedTimestamp>
       <TablespaceName>ETFLAB</TablespaceName>
       <ColNames>NAME</ColNames>
     </index>
-    <key id="991" parent="919" name="SYS_C00253589">
+    <key id="1001" parent="921" name="SYS_C00253589">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-11-13.17:57:06</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3338,7 +3402,7 @@
       <UnderlyingIndexName>SYS_C00253589</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="992" parent="919" name="FK_FAJLOVITIN">
+    <foreign-key id="1002" parent="921" name="FK_FAJLOVITIN">
       <ModifiedTimestamp>2018-11-13.17:57:06</ModifiedTimestamp>
       <ColNames>KORISNIKID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3346,7 +3410,7 @@
       <RefKeyName>SYS_C00253585</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="993" parent="919" name="FAJLOVITIN_ID_TRIGGER">
+    <trigger id="1003" parent="921" name="FAJLOVITIN_ID_TRIGGER">
       <ObjectId>405354</ObjectId>
       <SourceTextLength>77</SourceTextLength>
       <DependsOnIds>117,405342</DependsOnIds>
@@ -3355,7 +3419,7 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <trigger id="994" parent="919" name="FAJLOVITIN_NAME_TRIGGER">
+    <trigger id="1004" parent="921" name="FAJLOVITIN_NAME_TRIGGER">
       <ObjectId>384978</ObjectId>
       <SourceTextLength>224</SourceTextLength>
       <DependsOnIds>1221</DependsOnIds>
@@ -3364,27 +3428,27 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="995" parent="920" name="ID">
+    <column id="1005" parent="922" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="996" parent="920" name="FIRSTNAME">
+    <column id="1006" parent="922" name="FIRSTNAME">
       <Position>2</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="997" parent="920" name="LASTNAME">
+    <column id="1007" parent="922" name="LASTNAME">
       <Position>3</Position>
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="998" parent="920" name="MAIL">
+    <column id="1008" parent="922" name="MAIL">
       <Position>4</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="999" parent="920" name="SYS_C00253638">
+    <index id="1009" parent="922" name="SYS_C00253638">
       <ObjectId>385019</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-11-13.17:58:48</CreatedTimestamp>
@@ -3393,7 +3457,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1000" parent="920" name="SYS_C00253638">
+    <key id="1010" parent="922" name="SYS_C00253638">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-11-13.17:58:48</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3401,7 +3465,7 @@
       <UnderlyingIndexName>SYS_C00253638</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <trigger id="1001" parent="920" name="KORISNICIDELILA_ID_TRIGGER">
+    <trigger id="1011" parent="922" name="KORISNICIDELILA_ID_TRIGGER">
       <ObjectId>405348</ObjectId>
       <SourceTextLength>82</SourceTextLength>
       <DependsOnIds>117,405336</DependsOnIds>
@@ -3410,27 +3474,27 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1002" parent="921" name="ID">
+    <column id="1012" parent="923" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1003" parent="921" name="FIRSTNAME">
+    <column id="1013" parent="923" name="FIRSTNAME">
       <Position>2</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1004" parent="921" name="LASTNAME">
+    <column id="1014" parent="923" name="LASTNAME">
       <Position>3</Position>
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1005" parent="921" name="MAIL">
+    <column id="1015" parent="923" name="MAIL">
       <Position>4</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1006" parent="921" name="SYS_C00253471">
+    <index id="1016" parent="923" name="SYS_C00253471">
       <ObjectId>384871</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-11-13.17:33:38</CreatedTimestamp>
@@ -3439,7 +3503,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1007" parent="921" name="SYS_C00253471">
+    <key id="1017" parent="923" name="SYS_C00253471">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-11-13.17:33:38</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3447,7 +3511,7 @@
       <UnderlyingIndexName>SYS_C00253471</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <trigger id="1008" parent="921" name="KORISNICIMIRZA_ID_TRIGGER">
+    <trigger id="1018" parent="923" name="KORISNICIMIRZA_ID_TRIGGER">
       <ObjectId>405349</ObjectId>
       <SourceTextLength>81</SourceTextLength>
       <DependsOnIds>117,405337</DependsOnIds>
@@ -3456,27 +3520,27 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1009" parent="922" name="ID">
+    <column id="1019" parent="924" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1010" parent="922" name="FIRSTNAME">
+    <column id="1020" parent="924" name="FIRSTNAME">
       <Position>2</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1011" parent="922" name="LASTNAME">
+    <column id="1021" parent="924" name="LASTNAME">
       <Position>3</Position>
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1012" parent="922" name="MAIL">
+    <column id="1022" parent="924" name="MAIL">
       <Position>4</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1013" parent="922" name="SYS_C00253594">
+    <index id="1023" parent="924" name="SYS_C00253594">
       <ObjectId>384980</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-11-13.17:57:55</CreatedTimestamp>
@@ -3485,7 +3549,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1014" parent="922" name="SYS_C00253594">
+    <key id="1024" parent="924" name="SYS_C00253594">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-11-13.17:57:55</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3493,7 +3557,7 @@
       <UnderlyingIndexName>SYS_C00253594</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <trigger id="1015" parent="922" name="KORISNICISANJA_ID_TRIGGER">
+    <trigger id="1025" parent="924" name="KORISNICISANJA_ID_TRIGGER">
       <ObjectId>405347</ObjectId>
       <SourceTextLength>81</SourceTextLength>
       <DependsOnIds>117,405335</DependsOnIds>
@@ -3502,27 +3566,27 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1016" parent="923" name="ID">
+    <column id="1026" parent="925" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1017" parent="923" name="FIRSTNAME">
+    <column id="1027" parent="925" name="FIRSTNAME">
       <Position>2</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1018" parent="923" name="LASTNAME">
+    <column id="1028" parent="925" name="LASTNAME">
       <Position>3</Position>
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1019" parent="923" name="MAIL">
+    <column id="1029" parent="925" name="MAIL">
       <Position>4</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1020" parent="923" name="SYS_C00253585">
+    <index id="1030" parent="925" name="SYS_C00253585">
       <ObjectId>384972</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-11-13.17:56:55</CreatedTimestamp>
@@ -3531,7 +3595,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1021" parent="923" name="SYS_C00253585">
+    <key id="1031" parent="925" name="SYS_C00253585">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-11-13.17:56:55</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3539,7 +3603,7 @@
       <UnderlyingIndexName>SYS_C00253585</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <trigger id="1022" parent="923" name="KORISNICITIN_ID_TRIGGER">
+    <trigger id="1032" parent="925" name="KORISNICITIN_ID_TRIGGER">
       <ObjectId>405350</ObjectId>
       <SourceTextLength>79</SourceTextLength>
       <DependsOnIds>117,405338</DependsOnIds>
@@ -3548,22 +3612,22 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1023" parent="924" name="ID">
+    <column id="1033" parent="926" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1024" parent="924" name="VALUE">
+    <column id="1034" parent="926" name="VALUE">
       <Position>2</Position>
       <DataType>BLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1025" parent="924" name="POSTID">
+    <column id="1035" parent="926" name="POSTID">
       <Position>3</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1026" parent="924" name="SYS_C00232981">
+    <index id="1036" parent="926" name="SYS_C00232981">
       <ObjectId>369611</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:22:43</CreatedTimestamp>
@@ -3572,7 +3636,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1027" parent="924" name="SYS_C00232981">
+    <key id="1037" parent="926" name="SYS_C00232981">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:22:43</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3580,7 +3644,7 @@
       <UnderlyingIndexName>SYS_C00232981</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1028" parent="924" name="FK_PICTURES_POSTID">
+    <foreign-key id="1038" parent="926" name="FK_PICTURES_POSTID">
       <ModifiedTimestamp>2018-10-29.18:23:04</ModifiedTimestamp>
       <ColNames>POSTID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3588,7 +3652,7 @@
       <RefKeyName>SYS_C00232990</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="1029" parent="924" name="PICTURES_ID_TRIGGER">
+    <trigger id="1039" parent="926" name="PICTURES_ID_TRIGGER">
       <ObjectId>369629</ObjectId>
       <SourceTextLength>75</SourceTextLength>
       <DependsOnIds>117,369591</DependsOnIds>
@@ -3597,55 +3661,55 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1030" parent="925" name="ID">
+    <column id="1040" parent="927" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1031" parent="925" name="AUTHORID">
+    <column id="1041" parent="927" name="AUTHORID">
       <Position>2</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1032" parent="925" name="TITLE">
+    <column id="1042" parent="927" name="TITLE">
       <Position>3</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1033" parent="925" name="SUBTITLE">
+    <column id="1043" parent="927" name="SUBTITLE">
       <Position>4</Position>
       <DataType>VARCHAR2(75 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1034" parent="925" name="TEXT">
+    <column id="1044" parent="927" name="TEXT">
       <Position>5</Position>
       <DataType>CLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1035" parent="925" name="COMMENTSALLOWED">
+    <column id="1045" parent="927" name="COMMENTSALLOWED">
       <Position>6</Position>
       <DataType>NUMBER(1 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1036" parent="925" name="HEADPICTUREID">
+    <column id="1046" parent="927" name="HEADPICTUREID">
       <Position>7</Position>
       <DataType>NUMBER(*)|0s</DataType>
     </column>
-    <column id="1037" parent="925" name="VIDEOID">
+    <column id="1047" parent="927" name="VIDEOID">
       <Position>8</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1038" parent="925" name="PUBLISHEDAT">
+    <column id="1048" parent="927" name="PUBLISHEDAT">
       <Position>9</Position>
       <DataType>DATE|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1039" parent="925" name="EDITEDAT">
+    <column id="1049" parent="927" name="EDITEDAT">
       <Position>10</Position>
       <DataType>DATE|0s</DataType>
     </column>
-    <index id="1040" parent="925" name="SYS_C00232990">
+    <index id="1050" parent="927" name="SYS_C00232990">
       <ObjectId>369615</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:22:57</CreatedTimestamp>
@@ -3654,7 +3718,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1041" parent="925" name="SYS_C00232990">
+    <key id="1051" parent="927" name="SYS_C00232990">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:22:57</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3662,7 +3726,7 @@
       <UnderlyingIndexName>SYS_C00232990</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1042" parent="925" name="FK_POSTS_AUTHORID">
+    <foreign-key id="1052" parent="927" name="FK_POSTS_AUTHORID">
       <ModifiedTimestamp>2018-10-29.18:22:57</ModifiedTimestamp>
       <ColNames>AUTHORID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3670,7 +3734,7 @@
       <RefKeyName>SYS_C00232971</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="1043" parent="925" name="FK_POSTS_VIDEOID">
+    <foreign-key id="1053" parent="927" name="FK_POSTS_VIDEOID">
       <ModifiedTimestamp>2018-10-29.18:22:57</ModifiedTimestamp>
       <ColNames>VIDEOID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3678,7 +3742,7 @@
       <RefKeyName>SYS_C00232978</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="1044" parent="925" name="POSTS_ID_TRIGGER">
+    <trigger id="1054" parent="927" name="POSTS_ID_TRIGGER">
       <ObjectId>369630</ObjectId>
       <SourceTextLength>72</SourceTextLength>
       <DependsOnIds>117,369594</DependsOnIds>
@@ -3687,22 +3751,22 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1045" parent="926" name="ID">
+    <column id="1055" parent="928" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1046" parent="926" name="POSTID">
+    <column id="1056" parent="928" name="POSTID">
       <Position>2</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1047" parent="926" name="CATEGORYID">
+    <column id="1057" parent="928" name="CATEGORYID">
       <Position>3</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1048" parent="926" name="SYS_C00233014">
+    <index id="1058" parent="928" name="SYS_C00233014">
       <ObjectId>369623</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:23:30</CreatedTimestamp>
@@ -3711,7 +3775,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1049" parent="926" name="SYS_C00233014">
+    <key id="1059" parent="928" name="SYS_C00233014">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:23:30</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3719,7 +3783,7 @@
       <UnderlyingIndexName>SYS_C00233014</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1050" parent="926" name="FK_POSTSCATEGORIES_POSTID">
+    <foreign-key id="1060" parent="928" name="FK_POSTSCATEGORIES_POSTID">
       <ModifiedTimestamp>2018-10-29.18:23:30</ModifiedTimestamp>
       <ColNames>POSTID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3727,7 +3791,7 @@
       <RefKeyName>SYS_C00232990</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="1051" parent="926" name="FK_POSTSCATEGORIES_CATEGORYID">
+    <foreign-key id="1061" parent="928" name="FK_POSTSCATEGORIES_CATEGORYID">
       <ModifiedTimestamp>2018-10-30.20:26:59</ModifiedTimestamp>
       <ColNames>CATEGORYID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3735,7 +3799,7 @@
       <RefKeyName>SYS_C00232976</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="1052" parent="926" name="POSTSCATEGORIES_ID_TRIGGER">
+    <trigger id="1062" parent="928" name="POSTSCATEGORIES_ID_TRIGGER">
       <ObjectId>369634</ObjectId>
       <SourceTextLength>82</SourceTextLength>
       <DependsOnIds>117,369596</DependsOnIds>
@@ -3744,22 +3808,22 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1053" parent="927" name="ID">
+    <column id="1063" parent="929" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1054" parent="927" name="POSTID">
+    <column id="1064" parent="929" name="POSTID">
       <Position>2</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1055" parent="927" name="TAGID">
+    <column id="1065" parent="929" name="TAGID">
       <Position>3</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1056" parent="927" name="SYS_C00233009">
+    <index id="1066" parent="929" name="SYS_C00233009">
       <ObjectId>369621</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:23:24</CreatedTimestamp>
@@ -3768,7 +3832,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1057" parent="927" name="SYS_C00233009">
+    <key id="1067" parent="929" name="SYS_C00233009">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:23:24</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3776,7 +3840,7 @@
       <UnderlyingIndexName>SYS_C00233009</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1058" parent="927" name="FK_POSTSTAGS_POSTID">
+    <foreign-key id="1068" parent="929" name="FK_POSTSTAGS_POSTID">
       <ModifiedTimestamp>2018-10-29.18:23:24</ModifiedTimestamp>
       <ColNames>POSTID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3784,7 +3848,7 @@
       <RefKeyName>SYS_C00232990</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <foreign-key id="1059" parent="927" name="FK_POSTSTAGS_TAGID">
+    <foreign-key id="1069" parent="929" name="FK_POSTSTAGS_TAGID">
       <ModifiedTimestamp>2018-10-29.18:23:24</ModifiedTimestamp>
       <ColNames>TAGID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3792,7 +3856,7 @@
       <RefKeyName>SYS_C00232974</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="1060" parent="927" name="POSTSTAGS_ID_TRIGGER">
+    <trigger id="1070" parent="929" name="POSTSTAGS_ID_TRIGGER">
       <ObjectId>369633</ObjectId>
       <SourceTextLength>76</SourceTextLength>
       <DependsOnIds>117,369595</DependsOnIds>
@@ -3801,22 +3865,22 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1061" parent="928" name="ID">
+    <column id="1071" parent="930" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1062" parent="928" name="COMMENTID">
+    <column id="1072" parent="930" name="COMMENTID">
       <Position>2</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1063" parent="928" name="REASON">
+    <column id="1073" parent="930" name="REASON">
       <Position>3</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1064" parent="928" name="SYS_C00233005">
+    <index id="1074" parent="930" name="SYS_C00233005">
       <ObjectId>369619</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:23:17</CreatedTimestamp>
@@ -3825,7 +3889,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1065" parent="928" name="SYS_C00233005">
+    <key id="1075" parent="930" name="SYS_C00233005">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:23:17</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3833,7 +3897,7 @@
       <UnderlyingIndexName>SYS_C00233005</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1066" parent="928" name="FK_REPORTS_COMMENTID">
+    <foreign-key id="1076" parent="930" name="FK_REPORTS_COMMENTID">
       <ModifiedTimestamp>2018-10-29.18:23:17</ModifiedTimestamp>
       <ColNames>COMMENTID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3841,7 +3905,7 @@
       <RefKeyName>SYS_C00232999</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="1067" parent="928" name="REPORTS_ID_TRIGGER">
+    <trigger id="1077" parent="930" name="REPORTS_ID_TRIGGER">
       <ObjectId>369632</ObjectId>
       <SourceTextLength>74</SourceTextLength>
       <DependsOnIds>117,369592</DependsOnIds>
@@ -3850,17 +3914,17 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1068" parent="929" name="ID">
+    <column id="1078" parent="931" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1069" parent="929" name="NAME">
+    <column id="1079" parent="931" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1070" parent="929" name="SYS_C00232966">
+    <index id="1080" parent="931" name="SYS_C00232966">
       <ObjectId>369599</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:21:52</CreatedTimestamp>
@@ -3869,7 +3933,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1071" parent="929" name="SYS_C00232966">
+    <key id="1081" parent="931" name="SYS_C00232966">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:21:52</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3877,7 +3941,7 @@
       <UnderlyingIndexName>SYS_C00232966</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <trigger id="1072" parent="929" name="ROLES_ID_TRIGGER">
+    <trigger id="1082" parent="931" name="ROLES_ID_TRIGGER">
       <ObjectId>369624</ObjectId>
       <SourceTextLength>72</SourceTextLength>
       <DependsOnIds>117,369586</DependsOnIds>
@@ -3886,17 +3950,17 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1073" parent="930" name="ID">
+    <column id="1083" parent="932" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1074" parent="930" name="NAME">
+    <column id="1084" parent="932" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1075" parent="930" name="SYS_C00232974">
+    <index id="1085" parent="932" name="SYS_C00232974">
       <ObjectId>369603</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:22:26</CreatedTimestamp>
@@ -3905,7 +3969,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1076" parent="930" name="SYS_C00232974">
+    <key id="1086" parent="932" name="SYS_C00232974">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:22:26</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3913,7 +3977,7 @@
       <UnderlyingIndexName>SYS_C00232974</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <trigger id="1077" parent="930" name="TAGS_ID_TRIGGER">
+    <trigger id="1087" parent="932" name="TAGS_ID_TRIGGER">
       <ObjectId>369626</ObjectId>
       <SourceTextLength>71</SourceTextLength>
       <DependsOnIds>117,369588</DependsOnIds>
@@ -3922,17 +3986,17 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1078" parent="931" name="ID">
+    <column id="1088" parent="933" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(10 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1079" parent="931" name="TEXT">
+    <column id="1089" parent="933" name="TEXT">
       <Position>2</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1080" parent="931" name="TIN_PK">
+    <index id="1090" parent="933" name="TIN_PK">
       <ObjectId>415037</ObjectId>
       <CreatedTimestamp>2018-11-30.14:45:16</CreatedTimestamp>
       <ModifiedTimestamp>2018-11-30.14:45:16</ModifiedTimestamp>
@@ -3940,39 +4004,39 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1081" parent="931" name="TIN_PK">
+    <key id="1091" parent="933" name="TIN_PK">
       <ModifiedTimestamp>2018-11-30.14:45:16</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>TIN_PK</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="1082" parent="932" name="ID">
+    <column id="1092" parent="934" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1083" parent="932" name="USERNAME">
+    <column id="1093" parent="934" name="USERNAME">
       <Position>2</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1084" parent="932" name="PASSWORD">
+    <column id="1094" parent="934" name="PASSWORD">
       <Position>3</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1085" parent="932" name="MAIL">
+    <column id="1095" parent="934" name="MAIL">
       <Position>4</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1086" parent="932" name="ROLEID">
+    <column id="1096" parent="934" name="ROLEID">
       <Position>5</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1087" parent="932" name="SYS_C00232971">
+    <index id="1097" parent="934" name="SYS_C00232971">
       <ObjectId>369601</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:22:21</CreatedTimestamp>
@@ -3981,7 +4045,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1088" parent="932" name="SYS_C00232971">
+    <key id="1098" parent="934" name="SYS_C00232971">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:22:21</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -3989,7 +4053,7 @@
       <UnderlyingIndexName>SYS_C00232971</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1089" parent="932" name="FK_USERS_ROLEID">
+    <foreign-key id="1099" parent="934" name="FK_USERS_ROLEID">
       <ModifiedTimestamp>2018-10-29.18:22:21</ModifiedTimestamp>
       <ColNames>ROLEID</ColNames>
       <RefSchemaName>BP20</RefSchemaName>
@@ -3997,7 +4061,7 @@
       <RefKeyName>SYS_C00232966</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <trigger id="1090" parent="932" name="USERS_ID_TRIGGER">
+    <trigger id="1100" parent="934" name="USERS_ID_TRIGGER">
       <ObjectId>369625</ObjectId>
       <SourceTextLength>72</SourceTextLength>
       <DependsOnIds>117,369587</DependsOnIds>
@@ -4006,17 +4070,17 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="1091" parent="933" name="ID">
+    <column id="1101" parent="935" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1092" parent="933" name="LINK">
+    <column id="1102" parent="935" name="LINK">
       <Position>2</Position>
       <DataType>VARCHAR2(100 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1093" parent="933" name="SYS_C00232978">
+    <index id="1103" parent="935" name="SYS_C00232978">
       <ObjectId>369607</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-29.18:22:39</CreatedTimestamp>
@@ -4025,7 +4089,7 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="1094" parent="933" name="SYS_C00232978">
+    <key id="1104" parent="935" name="SYS_C00232978">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-29.18:22:39</ModifiedTimestamp>
       <ColNames>ID</ColNames>
@@ -4033,7 +4097,7 @@
       <UnderlyingIndexName>SYS_C00232978</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <trigger id="1095" parent="933" name="VIDEOS_ID_TRIGGER">
+    <trigger id="1105" parent="935" name="VIDEOS_ID_TRIGGER">
       <ObjectId>369628</ObjectId>
       <SourceTextLength>73</SourceTextLength>
       <DependsOnIds>117,369590</DependsOnIds>
@@ -4042,5 +4106,13 @@
       <Events>I</Events>
       <Turn>before-row</Turn>
     </trigger>
+    <argument id="1106" parent="936" name="KORISNIK">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="1107" parent="937" name="KORISNIK">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
   </database-model>
 </dataSource>
