@@ -52,7 +52,14 @@ public class Application implements CommandLineRunner{
             //System.out.println(migration.migrateTablesToMySQL(migration.getTables()));
 
             //migration.migrateTables(migration.migrateTablesToMySQL(migration.getTables()));
-            migration.migrateTableData(migration.getTables());
+            //migration.migrateTableData(migration.getTables());
+            //migration.migrateIndexes(migration.migrateIndexesToMySQL(migration.getTables()));
+            //System.out.println(migration.migrateForeignKeysToMySQL(migration.getTables()));
+            //migration.migrateForeignKeys(migration.migrateForeignKeysToMySQL(migration.getTables()));
+            //System.out.println(migration.migrateTriggers());
+            //migration.migrateTriggersToMySQL(migration.migrateTriggers());
+            //System.out.println(migration.migrateProcedures());
+            migration.migrateProceduresToMySQL(migration.migrateProcedures());
             //userService.AddFile("Tin", "Vidovic", "tvidovic1", new File("C:\\Users\\Tin\\Desktop\\aba"), "Tinov file");
             //UserController  uc = new UserController();
 
