@@ -1,6 +1,9 @@
 App
+App.Controller
 App.Entities
+App.Helpers
 App.NoSQL
 App.Repositories
+App.Repositories.Implementation
 App.Services.Implementations
 App.Services.Interfaces
