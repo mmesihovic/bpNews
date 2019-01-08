@@ -13,6 +13,8 @@ import { NewsletterUploadComponent } from './newsletter-upload/newsletter-upload
 import { FileSelectDirective } from 'ng2-file-upload';
 import { UploadService } from 'src/app/services/upload-service';
 import { DownloadService } from 'src/app/services/download-service';
+import {NewsletterDownloadComponentDelila} from "./newsletter-download-delila/newsletter-download.component";
+import {NewsletterUploadComponentDelila} from "./newsletter-upload-delila/newsletter-upload.component";
 
 const appRoutes: Routes = [
   { path: '', component: NewsletterDownloadComponent},
@@ -24,8 +26,9 @@ const appRoutes: Routes = [
     AppComponent,
     NewsletterDownloadComponent,
     NewsletterUploadComponent,
-    FileSelectDirective
-
+    FileSelectDirective,
+    NewsletterDownloadComponentDelila,
+    NewsletterUploadComponentDelila
   ],
   imports: [
     RouterModule.forRoot(

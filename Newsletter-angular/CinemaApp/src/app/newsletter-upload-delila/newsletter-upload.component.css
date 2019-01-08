@@ -1,0 +1,20 @@
+.padding-top-10{
+    padding-top: 10rem;
+}
+#upload-btn{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#upload-icon{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+#btn-up{
+    width: 40%;
+}
+form{
+    width:100%;
+}
