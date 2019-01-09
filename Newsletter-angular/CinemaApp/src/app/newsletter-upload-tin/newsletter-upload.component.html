@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row padding-top-10">
+    <form [formGroup]="uploadForm" (ngSubmit)="onSubmit()">
+    <div class="col-md-6 offset-3">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="First name" formControlName="firstName">
+      </div>
+     </div>
+    <div class="col-md-6 offset-3">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Last name"  formControlName="lastName">
+      </div>
+    </div>
+    <div class="col-md-6 offset-3">
+      <div class="input-group mb-3">
+        <input type="email" class="form-control" placeholder="Email"  formControlName="email">
+      </div>
+    </div>
+
+    <div class="col-md-6 offset-3">
+      <div class="input-group mb-3">
+          <input id="uploader" type="file" multiple (change)= "uploadFiles($event)" />
+        <button id="upload-btn"><i class="fa fa-cloud-upload" id="upload-icon"></i></button>
+      </div>
+    </div>
+    <div class="col-md-6 offset-3">
+      <label style="color:white">Files to be uploaded</label>
+      <div *ngFor="let itemName of names; let index=index">
+        <label style="color:white">{{index+1}}. {{itemName}}</label>
+      </div>
+    </div>
+</form>
+</div>
+</div>
+

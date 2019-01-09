@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c908537-04ba-4e3c-abf5-b4efdc2aa293" name="Default Changelist" comment="Addded support for">
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/download-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/upload-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App/Repositories/IFajloviDelila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3eb90014-7fb7-4c1b-bcf7-7d1b41ce02ac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3eb90014-7fb7-4c1b-bcf7-7d1b41ce02ac.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpnews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bpnews.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App/Controller/UserControllerDelila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Controller/UserControllerDelila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App/Controller/UserControllerTin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Controller/UserControllerTin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -236,14 +226,28 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-769388197">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="true" selection-end-line="59" />
+            <state relative-caret-position="323">
+              <caret line="22" column="7" selection-end-line="59" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -254,8 +258,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/download-service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="680">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -263,11 +267,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/upload-service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -279,7 +283,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/UserControllerDelila.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -306,16 +310,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/UserControllerSanja.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="194">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -326,8 +330,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="102">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
               </folding>
@@ -338,8 +342,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="17">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -418,11 +422,11 @@
         <option value="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/download-service.ts" />
         <option value="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.spec.ts" />
         <option value="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.spec.ts" />
-        <option value="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/main/java/App/Repositories/IFajloviDelila.java" />
         <option value="$PROJECT_DIR$/src/main/java/App/Controller/UserControllerDelila.java" />
         <option value="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.ts" />
         <option value="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/upload-service.ts" />
+        <option value="$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -444,9 +448,6 @@
       <expand />
       <select />
     </treeState>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Newsletter-angular/CinemaApp/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -492,6 +493,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -630,7 +632,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,7 +658,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="C:\Users\aa\Desktop\bpnews\Newsletter-angular\CinemaApp\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
@@ -751,6 +752,7 @@
       <workItem from="1545689319446" duration="671000" />
       <workItem from="1545740005942" duration="18943000" />
       <workItem from="1546942180836" duration="5616000" />
+      <workItem from="1546992532056" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit with working app">
       <created>1541173041527</created>
@@ -805,13 +807,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153334000" />
+    <option name="totallyTimeSpent" value="153386000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.32751676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.33102345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.50127876" side_tool="true" weight="0.25503355" />
       <window_info id="Designer" order="3" />
@@ -1012,9 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,10 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,9 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
           <caret line="120" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,28 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,9 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,13 +1086,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1134,13 +1094,7 @@
     <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/cinema-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/cinema-service.ts" />
     <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1148,26 +1102,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="7" selection-end-line="59" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/download-service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="680">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/IFajloviDelila.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/UserControllerDelila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        <state relative-caret-position="374">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1181,21 +1142,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/UserControllerSanja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/UserControllerDelila.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="e#0#73#0" expanded="true" />
           </folding>
@@ -1204,30 +1158,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-download-delila/newsletter-download.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="17">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/newsletter-upload-delila/newsletter-upload.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/download-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1235,9 +1169,26 @@
     <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/services-delila/upload-service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Repositories/IFajloviDelila.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Newsletter-angular/CinemaApp/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>

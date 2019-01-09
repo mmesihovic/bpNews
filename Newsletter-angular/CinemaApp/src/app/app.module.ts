@@ -15,6 +15,8 @@ import { UploadService } from 'src/app/services/upload-service';
 import { DownloadService } from 'src/app/services/download-service';
 import {NewsletterDownloadComponentDelila} from "./newsletter-download-delila/newsletter-download.component";
 import {NewsletterUploadComponentDelila} from "./newsletter-upload-delila/newsletter-upload.component";
+import {NewsletterDownloadComponentTin} from "./newsletter-download-tin/newsletter-download.component";
+import {NewsletterUploadComponentTin} from "./newsletter-upload-tin/newsletter-upload.component";
 
 const appRoutes: Routes = [
   { path: '', component: NewsletterDownloadComponent},
@@ -28,7 +30,9 @@ const appRoutes: Routes = [
     NewsletterUploadComponent,
     FileSelectDirective,
     NewsletterDownloadComponentDelila,
-    NewsletterUploadComponentDelila
+    NewsletterUploadComponentDelila,
+    NewsletterDownloadComponentTin,
+    NewsletterUploadComponentTin
   ],
   imports: [
     RouterModule.forRoot(
